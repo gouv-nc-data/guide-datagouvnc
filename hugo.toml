@@ -51,3 +51,44 @@ disableKinds = ['taxonomy']
     title = "Guide of data.gouv.nc"
     languageCode = "en"
     contentDir = "content/en"
+
+[menu]
+  [[menu.main]]
+    name = "Présentation"
+    url = "/presentation/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Commencer"
+    url = "/commencer/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Documentation"
+    url = "/documentation/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Fonctionnalités"
+    url = "/fonctionnalites/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Producteurs"
+    url = "/producteurs/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Réutilisations"
+    url = "/reutilisations/"
+    weight = 6
+
+  [[menu.main]]
+    name = "APIs"
+    url = "/apis/"
+    weight = 7
+
+  [[menu.main]]
+    name = "Licence et droits"
+    url = "/licence-et-droits/"
+    weight = 8

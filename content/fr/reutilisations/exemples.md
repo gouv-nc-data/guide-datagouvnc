@@ -4,7 +4,7 @@ date = 2024-10-10T15:49:00+11:00
 
 +++
 
-### 5. Réutilisations
+### Réutilisations
 
 ```markdown
 # Réutilisations
@@ -18,3 +18,4 @@ Voici quelques exemples de projets qui utilisent les données disponibles sur **
   
 Vous avez développé un projet avec nos données ? Soumettez-le via la section **Réutilisations** pour le partager avec la communauté.
 
+<iframe src="https://data.gouv.nc/pages/reutilisations/?headless=true" width="800" height="600" frameborder="0"></iframe>
