@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Commencer on Documentation en Français</title>
+    <title>Commencer on Guide de data.gouv.nc</title>
     <link>//localhost:1313/angelinagarae.dev/fr/commencer/</link>
-    <description>Recent content in Commencer on Documentation en Français</description>
+    <description>Recent content in Commencer on Guide de data.gouv.nc</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Thu, 10 Oct 2024 11:34:01 +1100</lastBuildDate>

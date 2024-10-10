@@ -1,9 +1,9 @@
 [languages.fr]
   languageName = "Français"
-  title = "Documentation en Français"
-  description = "Bienvenue dans la documentation officielle."
+  title = "Guide de data.gouv.nc"
+  description = "Bienvenue dans le guide officielle de data.gouv.nc."
 
 [languages.en]
   languageName = "English"
-  title = "Documentation in English"
-  description = "Welcome to the official documentation."
+  title = "Guide of data.gouv.nc"
+  description = "Welcome to the official guide of data.gouv.nc."

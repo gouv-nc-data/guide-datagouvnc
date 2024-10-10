@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Documentation en Français</title>
+    <title>Introduction on Guide de data.gouv.nc</title>
     <link>//localhost:1313/angelinagarae.dev/fr/</link>
-    <description>Recent content in Introduction on Documentation en Français</description>
+    <description>Recent content in Introduction on Guide de data.gouv.nc</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 10 Oct 2024 11:34:01 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 14:32:26 +1100</lastBuildDate>
     <atom:link href="//localhost:1313/angelinagarae.dev/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeux de données</title>
+      <link>//localhost:1313/angelinagarae.dev/fr/documentation/datasets/</link>
+      <pubDate>Thu, 10 Oct 2024 14:32:26 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/fr/documentation/datasets/</guid>
+      <description>lol&#xD;#&#xD;je veuhsa</description>
+    </item>
     <item>
       <title>Example site</title>
       <link>//localhost:1313/angelinagarae.dev/fr/commencer/example_site/</link>

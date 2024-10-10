@@ -1,6 +1,6 @@
 baseURL = 'https:/angelinagarae.dev/'
 languageCode = 'fr'
-title = 'DocsDataNC'
+title = 'data.gouv.nc'
 theme = 'book'
 
 # (Optional) Set Google Analytics if you use it to track your website.
@@ -35,18 +35,19 @@ disableKinds = ['taxonomy']
   BookComments = true
   BookPortableLinks = true
   BookServiceWorker = true
+  BookFavicon = "favicon.png"
 
 [languages]
   [languages.fr]
     languageName = "Français"
     weight = 1
-    title = "Documentation en Français"
+    title = "Guide de data.gouv.nc"
     languageCode = "fr"
     contentDir = "content/fr"
 
   [languages.en]
     languageName = "English"
     weight = 2
-    title = "Documentation in English"
+    title = "Guide of data.gouv.nc"
     languageCode = "en"
     contentDir = "content/en"
