@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APIs on Guide of data.gouv.nc</title>
+    <link>//localhost:1313/angelinagarae.dev/API/</link>
+    <description>Recent content in APIs on Guide of data.gouv.nc</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Oct 2024 15:54:44 +1100</lastBuildDate>
+    <atom:link href="//localhost:1313/angelinagarae.dev/API/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the API</title>
+      <link>//localhost:1313/angelinagarae.dev/API/using/</link>
+      <pubDate>Thu, 10 Oct 2024 15:54:44 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/API/using/</guid>
+      <description>&#xD;API and Integrations&#xD;#&#xD;Using the API&#xD;#&#xD;data.gouv.nc provides APIs to programmatically access datasets. You can use these APIs to integrate data into your applications or automate analysis.&#xA;Example API request&#xD;#&#xD;GET https://data.gouv.nc/api/1/datasets/my-dataset </description>
+    </item>
+  </channel>
+</rss>

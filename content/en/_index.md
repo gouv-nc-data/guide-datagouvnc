@@ -1,10 +1,10 @@
 # Welcome to the data.gouv.fr Guide
 
-Welcome to the user guide for **data.gouv.fr**, the French open data platform. This guide aims to help you navigate and make the most of the platform's features, whether you're a regular user or a data contributor.
+Welcome to the user guide for **data.gouv.nc**, the New-Caledonian open data platform. This guide aims to help you navigate and make the most of the platform's features, whether you're a regular user or a data contributor.
 
-## About data.gouv.fr
+## About data.gouv.nc
 
-**data.gouv.fr** is a public platform that provides access to open data shared by public organizations, institutions, and other contributors. Its goal is to promote transparency and facilitate the use of data for various purposes, such as analysis, app development, innovative reuse, and more.
+**data.gouv.nc** is a public platform that provides access to open data shared by public organizations, institutions, and other contributors. Its goal is to promote transparency and facilitate the use of data for various purposes, such as analysis, app development, innovative reuse, and more.
 
 ## What Will You Find in This Guide?
 
@@ -17,7 +17,7 @@ Welcome to the user guide for **data.gouv.fr**, the French open data platform. T
 
 ## Ready to Get Started?
 
-Feel free to explore the different sections of this guide to discover everything you can do with **data.gouv.fr**.
+Feel free to explore the different sections of this guide to discover everything you can do with **data.gouv.nc**.
 
 ---
 
