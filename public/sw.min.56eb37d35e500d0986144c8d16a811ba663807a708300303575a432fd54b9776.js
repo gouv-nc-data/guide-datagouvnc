@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/angelinagarae.dev/sw.js",{scope:"/angelinagarae.dev/"})
