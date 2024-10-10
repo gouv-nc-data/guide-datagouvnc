@@ -4,25 +4,27 @@ date: 2023-10-10
 draft: false
 weight: 1
 ---
+# Bienvenue sur le Guide de data.gouv.fr
 
-# Bienvenue sur le site de documentation de data.gouv.nc
+Bienvenue sur le guide d'utilisation de **data.gouv.fr**, la plateforme française des données ouvertes. Ce guide a pour objectif de vous aider à naviguer et à utiliser au mieux les fonctionnalités de la plateforme, que vous soyez un simple utilisateur ou un contributeur de données.
 
-**data.gouv.nc** est la plateforme officielle d'accès aux données publiques de la Nouvelle-Calédonie. Elle permet aux citoyens, entreprises, chercheurs et développeurs de découvrir, exploiter et réutiliser les données ouvertes (open data) mises à disposition par les institutions et acteurs publics locaux.
+## À propos de data.gouv.fr
 
-## Objectifs du site
+**data.gouv.fr** est une plateforme publique qui permet à tous d'accéder aux données ouvertes partagées par des organismes publics, des institutions, et d'autres acteurs. L'objectif est de promouvoir la transparence et de faciliter l'utilisation des données pour des projets variés : analyse, développement d'applications, réutilisations innovantes, etc.
 
-Ce site a pour vocation de :
+## Que trouverez-vous dans ce guide ?
 
-- Fournir un accès facile et centralisé aux données publiques de Nouvelle-Calédonie.
-- Encourager la transparence et l’innovation en facilitant la réutilisation des données.
-- Offrir un espace d’échanges pour les développeurs, les chercheurs et les citoyens qui souhaitent contribuer à l'amélioration et à l'utilisation des données ouvertes.
+- **Fonctionnalités :** Apprenez à rechercher et à utiliser les jeux de données disponibles sur la plateforme.
+- **Contribuer :** Découvrez comment publier vos propres jeux de données et quelles sont les bonnes pratiques à suivre.
+- **API et intégrations :** Explorez comment accéder aux données via des API et intégrer ces données dans vos applications.
+- **Réutilisations :** Consultez des exemples d'utilisation concrète des données publiées sur data.gouv.fr.
+- **Licences et droits :** Comprenez les licences des jeux de données et vos droits d'utilisation.
+- **Support :** Trouvez des réponses aux questions fréquentes ou contactez notre équipe pour obtenir de l'aide.
 
-## Comment utiliser la documentation ?
+## Prêt à commencer ?
 
-Cette documentation est conçue pour vous guider dans l'utilisation de la plateforme, des jeux de données, et des API disponibles. Vous y trouverez :
+N'hésitez pas à explorer les différentes sections du guide pour découvrir tout ce que vous pouvez faire avec **data.gouv.fr**.
 
-- Des tutoriels pour apprendre à manipuler les données.
-- Les spécifications techniques des API pour les développeurs.
-- Des informations sur les formats de données et les licences.
+---
 
-Nous espérons que vous trouverez ici toutes les informations nécessaires pour exploiter pleinement les données ouvertes et contribuer au développement d'une Nouvelle-Calédonie plus transparente et collaborative.
+Pour toute question, consultez notre [FAQ](#) ou contactez-nous directement via la [page de support](#).

@@ -1,29 +1,24 @@
-+++
-title = 'Intro'
-date = 2024-10-10T10:55:02+11:00
-draft = false
-weight = 2
-+++
+# Welcome to the data.gouv.fr Guide
 
+Welcome to the user guide for **data.gouv.fr**, the French open data platform. This guide aims to help you navigate and make the most of the platform's features, whether you're a regular user or a data contributor.
 
-# Welcome to the data.gouv.nc Documentation Site
+## About data.gouv.fr
 
-**data.gouv.nc** is the official platform for accessing public data from New Caledonia. It enables citizens, businesses, researchers, and developers to discover, use, and reuse open data provided by local public institutions and organizations.
+**data.gouv.fr** is a public platform that provides access to open data shared by public organizations, institutions, and other contributors. Its goal is to promote transparency and facilitate the use of data for various purposes, such as analysis, app development, innovative reuse, and more.
 
-## Site Objectives
+## What Will You Find in This Guide?
 
-The primary goals of this site are to:
+- **Features:** Learn how to search and utilize datasets available on the platform.
+- **Contribute:** Find out how to publish your own datasets and best practices to follow.
+- **API and Integrations:** Discover how to access data via APIs and integrate them into your applications.
+- **Reuses:** Explore real-world examples of projects built with data from data.gouv.fr.
+- **Licenses and Rights:** Understand dataset licenses and your rights when using the data.
+- **Support:** Get answers to frequently asked questions or contact our team for help.
 
-- Provide easy and centralized access to New Caledonia's public data.
-- Encourage transparency and innovation by facilitating data reuse.
-- Offer a space for developers, researchers, and citizens to contribute to the improvement and use of open data.
+## Ready to Get Started?
 
-## How to Use the Documentation
+Feel free to explore the different sections of this guide to discover everything you can do with **data.gouv.fr**.
 
-This documentation is designed to guide you in using the platform, datasets, and available APIs. Here, you will find:
+---
 
-- Tutorials for learning how to work with the data.
-- Technical specifications for APIs, aimed at developers.
-- Information about data formats and licensing.
-
-We hope you find everything you need to fully explore open data and contribute to a more transparent and collaborative New Caledonia.
+For any questions, check out our [FAQ](#) or reach out to us through the [support page](#).

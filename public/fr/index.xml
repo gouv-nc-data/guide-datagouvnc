@@ -6,14 +6,42 @@
     <description>Recent content in Introduction on Guide de data.gouv.nc</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 10 Oct 2024 14:32:26 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 15:49:00 +1100</lastBuildDate>
     <atom:link href="//localhost:1313/angelinagarae.dev/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exemples</title>
+      <link>//localhost:1313/angelinagarae.dev/fr/reutilisations/exemples/</link>
+      <pubDate>Thu, 10 Oct 2024 15:49:00 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/fr/reutilisations/exemples/</guid>
+      <description>5. Réutilisations&#xD;#&#xD;# Réutilisations ## Exemples de projets Voici quelques exemples de projets qui utilisent les données disponibles sur **data.gouv.nc** : - **OpenTransport NC** : une application mobile qui utilise les données de transport pour fournir des informations en temps réel sur les horaires de bus. - **CalédoClimat** : un tableau de bord interactif qui présente les données climatiques de la Nouvelle-Calédonie. Vous avez développé un projet avec nos données ?</description>
+    </item>
+    <item>
+      <title>Utilisations des API</title>
+      <link>//localhost:1313/angelinagarae.dev/fr/API/utilisations/</link>
+      <pubDate>Thu, 10 Oct 2024 15:40:37 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/fr/API/utilisations/</guid>
+      <description>&#xD;API et intégrations&#xD;#&#xD;Utilisation des API&#xD;#&#xD;data.gouv.nc propose des API pour accéder aux jeux de données de manière programmatique. Vous pouvez utiliser ces API pour intégrer les données dans vos applications ou automatiser des analyses.&#xA;Exemple de requête API&#xD;#&#xD;GET https://data.gouv.nc/api/1/datasets/mon-jeu-de-donnees </description>
+    </item>
+    <item>
+      <title>Ajouter un/des jeu(x) de données</title>
+      <link>//localhost:1313/angelinagarae.dev/fr/producteurs/ajouter/</link>
+      <pubDate>Thu, 10 Oct 2024 15:38:30 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/fr/producteurs/ajouter/</guid>
+      <description>Contribuer&#xD;#&#xD;Ajouter un jeu de données&#xD;#&#xD;Vous souhaitez partager un jeu de données public ? Voici les étapes pour contribuer :&#xA;Rendez-vous dans la section Ajouter un jeu de données. Remplissez le formulaire avec les informations requises : titre, description, licence, et téléchargez vos fichiers. Cliquez sur Publier pour partager vos données avec la communauté. Assurez-vous que vos données sont bien structurées et correctement documentées avant de les publier.</description>
+    </item>
+    <item>
+      <title>Presentation de data.gouv.nc</title>
+      <link>//localhost:1313/angelinagarae.dev/fr/presentation/</link>
+      <pubDate>Thu, 10 Oct 2024 15:36:55 +1100</pubDate>
+      <guid>//localhost:1313/angelinagarae.dev/fr/presentation/</guid>
+      <description>data.gouv.nc c&amp;rsquo;est quoi ?&#xD;#&#xD;data.gouv.nc est la plateforme officielle dédiée à la mise à disposition des données publiques de Nouvelle-Calédonie. Elle a pour objectif de promouvoir la transparence, l’innovation et l’amélioration des services publics à travers l’accès aux données ouvertes.&#xA;En accédant à ces données, les citoyens, entreprises et chercheurs peuvent réutiliser ces informations pour créer des applications, analyser des tendances ou encore développer des projets innovants.&#xA;Objectifs :&#xD;#&#xD;Favoriser l&amp;rsquo;accès aux données publiques.</description>
+    </item>
     <item>
       <title>Jeux de données</title>
       <link>//localhost:1313/angelinagarae.dev/fr/documentation/datasets/</link>
       <pubDate>Thu, 10 Oct 2024 14:32:26 +1100</pubDate>
       <guid>//localhost:1313/angelinagarae.dev/fr/documentation/datasets/</guid>
-      <description>lol&#xD;#&#xD;je veuhsa</description>
+      <description>&#xD;Comment explorer la plateforme&#xD;#&#xD;</description>
     </item>
     <item>
       <title>Example site</title>
