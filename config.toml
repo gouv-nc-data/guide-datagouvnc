@@ -1,0 +1,9 @@
+[languages.fr]
+  languageName = "Français"
+  title = "Documentation en Français"
+  description = "Bienvenue dans la documentation officielle."
+
+[languages.en]
+  languageName = "English"
+  title = "Documentation in English"
+  description = "Welcome to the official documentation."

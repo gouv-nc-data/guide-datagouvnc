@@ -1,6 +1,6 @@
 {
-  "name": "Docs",
-  "short_name": "Docs",
+  "name": "Documentation in English",
+  "short_name": "Documentation in English",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
