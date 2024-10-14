@@ -1,5 +1,6 @@
-baseURL = 'https:/angelinagarae.dev/'
+baseURL = 'https:/data.gouv.nc/'
 languageCode = 'fr'
+defaultContentLanguage = 'fr'
 title = 'data.gouv.nc'
 theme = 'book'
 
@@ -9,7 +10,7 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 
 # (Optional) If you provide a Disqus shortname, comments will be enabled on
 # all pages.
-disqusShortname = "my-site"
+disqusShortname = "data.gouv.nc"
 
 # (Optional) Set this to true if you use capital letters in file names
 disablePathToLower = true
@@ -27,7 +28,7 @@ disableKinds = ['taxonomy']
   BookToC = true
   BookLogo = 'logo.png'
   BookSection = '*'
-  BookRepo = 'https://github.com/angelinagarae/docs_datagouvnc'
+  BookRepo = 'https://github.com/gouv-nc-data/guide-datagouvnc'
   BookCommitPath = 'commit'
   BookEditPath = 'edit/main/'
   BookDateFormat = 'Jan 2, 2006'
@@ -40,7 +41,7 @@ disableKinds = ['taxonomy']
 [languages]
   [languages.fr]
     languageName = "Français"
-    weight = 1
+    weight = 0
     title = "Guide de data.gouv.nc"
     languageCode = "fr"
     contentDir = "content/fr"
