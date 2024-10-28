@@ -1,0 +1,25 @@
+<!--
+Shortcode for creating notice boxes in Hugo.
+Parameters:
+- type: The type of notice (e.g., "info", "warning", "error")
+- title: Optional title for the notice box
+-->
+
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default "" }}
+
+<div class="notice {{ $type }}">
+    {{ if eq $type "info" }}
+    <i class="fa-solid fa-circle-info"></i>
+    {{ else if eq $type "warning" }}
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    {{ else if eq $type "error" }}
+    <i class="fa-solid fa-circle-exclamation"></i>
+    {{ end }}
+    <div>
+        {{ if $title }}
+        <strong>{{ $title }}</strong><br>
+        {{ end }}
+        <p>{{ .Inner | markdownify }}</p>
+    </div>
+</div>
