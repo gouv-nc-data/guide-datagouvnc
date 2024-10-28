@@ -1,0 +1,33 @@
+/* Importation des polices */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* ================================================== */
+/* Typographie générale */
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+  line-height: 1.5;
+  color: #383F4F;
+}
+/* Basique */
+h1,h2,h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: rgb(21, 26, 34);
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 500 !important;
+}
+
+h2 {
+  padding: 10px 0;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+h4 {
+  font-weight: 400 !important;
+}
+a {
+  color: #3760EA ;
+}
+a:visited {
+  color: rgba(27, 127, 204, 0.8);
+}
