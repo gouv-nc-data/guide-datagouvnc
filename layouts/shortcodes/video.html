@@ -1,0 +1,15 @@
+<!-- 
+Shortcode to embed a YouTube video that is centered and responsive.
+Parameters:
+- id: YouTube video ID
+- width: Width of the video (optional, default is 560)
+- height: Height of the video (optional, default is 315)
+-->
+
+{{ $id := .Get "id" }}
+{{ $width := .Get "width" | default "560" }}
+{{ $height := .Get "height" | default "315" }}
+
+<div class="video-responsive">
+    <iframe src="https://www.youtube.com/embed/{{ $id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
