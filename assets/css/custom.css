@@ -31,3 +31,17 @@ a {
 a:visited {
   color: rgba(27, 127, 204, 0.8);
 }
+/* ================================================== */
+/* Styles pour centrer les images */
+img {
+  border-radius: 10px;
+  display: block;
+  margin: 25px auto !important;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 100%; 
+}
