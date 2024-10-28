@@ -92,3 +92,45 @@ pre code a {
   color: #3760ea;
   text-decoration: underline;
 }
+
+
+/* ================================================== */
+/* Tableaux */
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+table th {
+  background-color: #3760ea;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+table tr:hover {
+  background-color: #dae0e5;
+}
+
+table td a {
+  color: #3760ea;
+  text-decoration: underline;
+}
