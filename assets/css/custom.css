@@ -161,3 +161,30 @@ table td a {
 .book-btn:hover {
   background: linear-gradient(#54555a, #000);
 }
+/* General styling for notice boxes */
+.notice {
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+}
+
+/* Styles for the icons */
+.notice i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Info notice style */
+.notice.info {
+  background-color: #e7edff;
+  border-left: 5px solid #3760ea;
+  color: #333;
+}
+
+.notice.info i {
+  color: #3760ea; /* Blue color for info icon */
+}
