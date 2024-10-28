@@ -66,3 +66,29 @@ img {
   height: 100%;
   border: 0;
 }
+
+/* ================================================== */
+/* Code blocks */
+.code-snippet {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #e7edff !important;
+  color: #212529 !important;
+}
+
+pre {
+  background-color: #e7edff !important;
+}
+
+pre code a {
+  color: #3760ea;
+  text-decoration: underline;
+}
