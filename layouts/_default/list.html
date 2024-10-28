@@ -1,1 +1,51 @@
-{{ define "dummy" }}{{ end }}
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <!-- Contenu principal de la page -->
+    <div class="col-md-12">    <h1>{{ .Title }}</h1></div>
+
+    <div class="col-md-12">  {{ .Content }}</div>
+
+
+    <!-- Boucle sur les sous-sections qui sera affichée après le contenu principal -->
+    {{ range .Sections }}
+    <div class="col-12">
+      <h2>{{ .Title }}</h2>
+      <!-- Titre de la sous-section -->
+    </div>
+
+    <!-- Si la section n'a qu'un fichier _index.md, on l'affiche comme une carte -->
+    {{ if and (eq (len .Pages) 1) (eq (index .Pages 0).File.BaseFileName "_index") }}
+    <div class="col-md-6">
+      <a
+        href="{{ .Permalink }}"
+        class="card mb-4 text-decoration-none"
+        style="color: inherit"
+      >
+        <div class="card-body">
+          <h5 class="card-title">{{ .Title }}</h5>
+          <p class="card-text">{{ .Params.description }}</p>
+        </div>
+      </a>
+    </div>
+    {{ else }}
+    <!-- Sinon, on boucle sur les pages de la sous-section -->
+    {{ range .Pages }}
+    <div class="col-md-6">
+      <a
+        href="{{ .Permalink }}"
+        class="card mb-4 text-decoration-none"
+        style="color: inherit"
+      >
+        <div class="card-body">
+          <h5 class="card-title">{{ .Title }}</h5>
+          <p class="card-text">{{ .Params.description }}</p>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
