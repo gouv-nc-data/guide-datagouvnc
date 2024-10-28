@@ -300,3 +300,30 @@ table td a {
   color: #666;
   font-size: 16px;
 }
+
+/* ================================================== */
+/* Onglets (Tabs) */
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab input[type="radio"] {
+  display: none;
+}
+
+.tab label {
+  padding: 10px;
+  background-color: #3760ea;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #3760ea;
+  border-radius: 0 5px 5px 5px;
+  background-color: #f9f9f9;
+}
