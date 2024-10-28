@@ -188,3 +188,25 @@ table td a {
 .notice.info i {
   color: #3760ea; /* Blue color for info icon */
 }
+
+/* Warning notice style */
+.notice.warning {
+  background-color: #fff5e6;
+  border-left: 5px solid #ffa500;
+  color: #333;
+}
+
+.notice.warning i {
+  color: #ffa500; /* Orange color for warning icon */
+}
+
+/* Error notice style */
+.notice.error {
+  background-color: #ffe6e6;
+  border-left: 5px solid #ff0000;
+  color: #333;
+}
+
+.notice.error i {
+  color: #ff0000; /* Red color for error icon */
+}
