@@ -357,3 +357,29 @@ table td a {
   height: 15px;
   border-radius: 50%;
 }
+
+/* ================================================== */
+/* Glossaire */
+.glossary {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #e7edff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.glossary h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.glossary dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.glossary dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
