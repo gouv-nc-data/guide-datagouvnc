@@ -210,3 +210,48 @@ table td a {
 .notice.error i {
   color: #ff0000; /* Red color for error icon */
 }
+
+
+/* ================================================== */
+/* Menu */
+.book-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-menu ul li {
+  margin: 5px 0 !important;
+}
+
+.book-menu ul li a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  border-left: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.book-menu ul li a:hover, .book-menu ul li a.active {
+  background-color: #E7EDFF;
+  color: #3760EA;
+}
+
+.book-menu ul li a.active {
+  font-weight: bold;
+  border-left: 1px solid #3760EA;
+}
+
+.book-menu ul li ul {
+  margin-left: 20px;
+  border-left: 1px solid #ddd;
+  padding-left: 0;
+}
+
+.book-menu ul li ul li a {
+  font-size: 13px;
+  padding-left: 5px;
+}
