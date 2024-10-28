@@ -22,9 +22,14 @@
   <link rel="alternate" hreflang="{{ default .Site.LanguageCode .Language.Lang }}" href="{{ .Permalink }}" title="{{ partial "docs/title" . }}">
 {{- end -}}
 
+
 <!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
 {{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | css.Sass | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" {{ template "integrity" $styles }}>
+{{ $styles := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 {{- if default true .Site.Params.BookSearch -}}
   {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
