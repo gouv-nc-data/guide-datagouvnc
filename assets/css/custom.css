@@ -383,3 +383,50 @@ table td a {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+/* ================================================== */
+/* Footer */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+}
+
+.info-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-link {
+  color: inherit;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #007bff; /* Couleur au survol */
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  text-align: center;
+  width: 100%;
+}
