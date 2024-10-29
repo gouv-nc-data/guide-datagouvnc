@@ -415,8 +415,8 @@ table td a {
   gap: 0.5rem;
 }
 
-.social-link {
-  color: inherit;
+.social-link, .social-link:visited {
+  color: black;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
