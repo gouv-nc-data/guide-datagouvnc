@@ -237,7 +237,42 @@ table td a {
   text-decoration: none;
   border: 1px solid #3760EA !important;
 }
+/* CARD TAXONOMY */
+.card-body {
+  top: 16px;
+    left: 16px;
+    padding: var(--SpacingSpacing-sm);
+    gap: var(--SpacingSpacing-lg);
+    border-radius: var(--Radius-s);
+    background: var(--Neutral-DarkFont-1000, #151A22);
+    color: #fff
+}
+.card-body svg {
+  color: #9EB2F7 !important;
+}
+.card-body .card-title {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
 
+.card-body .card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-body:hover {
+  background: linear-gradient(0deg, #383F4F, #383F4F),
+linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
+}
 /* General styling for notice boxes */
 .notice {
   padding: 15px;
