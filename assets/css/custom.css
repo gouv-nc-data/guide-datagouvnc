@@ -430,3 +430,6 @@ table td a {
   text-align: center;
   width: 100%;
 }
+.book-languages label {
+  align-items: center;
+}
