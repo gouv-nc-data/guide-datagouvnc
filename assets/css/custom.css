@@ -21,6 +21,11 @@
   --Radius-xxl: 24px;  /* Rayon extra large */
   --Radius-full: 50%;  /* Rayon complet pour des éléments circulaires */
 }
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1500px !important;
+  }
+}
 /* ================================================== */
 /* Typographie générale */
 body {
@@ -31,25 +36,72 @@ body {
 /* Basique */
 h1,h2,h3 {
   font-family: "IBM Plex Sans", sans-serif;
-  color: rgb(21, 26, 34);
-  text-align: left;
-  line-height: 1.2;
-  font-weight: 500 !important;
+  color: rgb(21, 26, 34) !important;
 }
-
+h1 {
+  font-size: 44px !important;
+  font-weight: 500 !important;
+  line-height: 44px !important;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 h2 {
-  padding: 10px 0;
-  margin-top: 10px;
-  line-height: 1.2;
+  padding: 10px 0 !important;
+  margin-top: 10px !important;
+  line-height: 1.2 !important;
+  font-size: 32px !important;
+  font-weight: 500;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+h3 {
+font-size: 24px !important;
+font-weight: 600 !important;
+line-height: 28.8px !important; 
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 }
 h4 {
-  font-weight: 400 !important;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+p {
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 a {
-  color: #3760EA ;
+  color: #2E51C8 ;
+  text-decoration: none;
+}
+a:hover {
+  color: #2642A5;
+  
+  text-decoration: none;
+}
+a:active {
+  color: #132560;
 }
 a:visited {
-  color: rgba(27, 127, 204, 0.8);
+  color: #132560;
+}
+a:disabled {
+  color: #C0CEFB;
 }
 /* ================================================== */
 /* Styles pour centrer les images */
@@ -331,6 +383,16 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   padding: 0;
   margin: 0;
 }
+.book-menu .book-menu-content , .book-toc .book-toc-content {
+  width: 16rem;
+    padding: 1rem;
+    background: var(--body-background);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 .book-menu ul li {
   margin: 5px 0 !important;
@@ -338,13 +400,18 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 
 .book-menu ul li a {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 14px;
-  color: #333;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
   border-left: 3px solid transparent;
-  transition: 0.3s ease;
+  transition: .3s ease;
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #465161;
 }
 
 .book-menu ul li a:hover, .book-menu ul li a.active {
@@ -545,4 +612,22 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 .book-languages label {
   align-items: center;
 }
+
+.anchor {
+  display: none;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* Changez cette couleur selon vos besoins */
+  border-bottom: 1px solid #ddd; /* Optionnel : pour une séparation visuelle */
+}
+
+.top-bar > * {
+  margin: 0 10px; /* Espacement entre les éléments */
+}
+
 
