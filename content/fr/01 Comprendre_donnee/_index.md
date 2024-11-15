@@ -1,10 +1,13 @@
-+++
-title = 'Comprendre ce qu’est une donnée'
-date = 2024-11-15T10:42:12+11:00
-description = "BLBALBAL a completer car ca s'affiche dans la page d'accueil dans les cards."
-+++
+---
+title: "Comprendre ce qu’est une donnée"
+date: 2024-11-15T10:42:12+11:00
+draft: false
+description: "Apprenez ce que sont les données et pourquoi elles sont importantes"
+weight: 1
+---
 
-Apprenez ce que sont les données et pourquoi elles sont importantes, et découvrez certains des termes, principes et cadres qui s'y rapportent.
+
+Découvrez ce que sont les données et pourquoi elles sont importantes, et découvrez certains des termes, principes et cadres qui s'y rapportent.
 
 ## Qu'est-ce qu'une donnée ?
 Les données sont un type d'information, souvent des faits ou des chiffres, qui sont collectées pour être catégorisées, analysées et utilisées afin de faciliter la prise de décision. Elles peuvent provenir de sources variées, comme des études scientifiques, des recensements, des transactions, ou encore des relevés environnementaux. Ces données, une fois interprétées, permettent de dégager des tendances, d’innover, et de prendre des décisions plus éclairées.
