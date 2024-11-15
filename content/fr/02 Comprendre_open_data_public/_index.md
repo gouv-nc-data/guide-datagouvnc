@@ -1,9 +1,10 @@
-+++
-title = 'Comprendre l'open data public'
-date = 2024-11-15T11:04:12+11:00
-description = "Découvrez ce qu'est l'open data public."
-weight: 1
-+++
+---
+title: "Comprendre l'open data public"
+date: 2024-11-15T11:15:12+11:00
+draft: false
+description: "Découvrez ce qu'est l'open data public"
+weight: 2
+---
 
 Découvrez ici le concept d'open data public.
 
