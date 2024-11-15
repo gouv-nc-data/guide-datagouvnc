@@ -2,7 +2,6 @@
 title: "Introduction à data.gouv.nc"
 date: 2023-10-10
 draft: false
-weight: 1
 ---
 
 Bienvenue sur le guide d'utilisation de **data.gouv.nc**, la plateforme des données de la Nouvelle-Calédonie. Ce guide a pour objectif de vous aider à naviguer et à utiliser au mieux les fonctionnalités de la plateforme, que vous soyez un novice, un producteur de données, ou un développeur.
