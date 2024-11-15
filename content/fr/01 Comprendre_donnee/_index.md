@@ -2,7 +2,7 @@
 title: "Comprendre ce qu’est une donnée"
 date: 2024-11-15T10:42:12+11:00
 draft: false
-description: "Apprenez ce que sont les données et pourquoi elles sont importantes"
+description: "Découvrez ce que sont les données et pourquoi elles sont importantes"
 weight: 1
 ---
 
