@@ -11,11 +11,18 @@
       <a
         href="{{ .Permalink }}"
         class="card mb-4 text-decoration-none"
-        style="color: inherit"
+        style="color: inherit; position: relative;"
       >
         <div class="card-body">
           <h5 class="card-title">{{ .Title }}</h5>
           <p class="card-text">{{ .Params.description }}</p>
+          <!-- Ajout de la flèche -->
+          <div style="position: absolute; bottom: 10px; right: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.828 3.172a.5.5 0 0 1 .707 0l4 4a.5.5 0 0 1 0 .707l-4 4a.5.5 0 1 1-.707-.707L14.293 8 10.12 3.828a.5.5 0 0 1 0-.707z"/>
+              <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </div>
         </div>
       </a>
     </div>
@@ -29,17 +36,23 @@
     </div>
 
     <!-- Si la section n'a qu'un fichier _index.md, on l'affiche comme une carte -->
-    {{ if and (eq (len .Pages) 1) (eq (index .Pages 0).File.BaseFileName
-    "_index") }}
+    {{ if and (eq (len .Pages) 1) (eq (index .Pages 0).File.BaseFileName "_index") }}
     <div class="col-md-6">
       <a
         href="{{ .Permalink }}"
         class="card mb-4 text-decoration-none"
-        style="color: inherit"
+        style="color: inherit; position: relative;"
       >
         <div class="card-body">
           <h5 class="card-title">{{ .Title }}</h5>
           <p class="card-text">{{ .Params.description }}</p>
+          <!-- Ajout de la flèche -->
+          <div style="position: absolute; bottom: 10px; right: 10px; ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.828 3.172a.5.5 0 0 1 .707 0l4 4a.5.5 0 0 1 0 .707l-4 4a.5.5 0 1 1-.707-.707L14.293 8 10.12 3.828a.5.5 0 0 1 0-.707z"/>
+              <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </div>
         </div>
       </a>
     </div>
@@ -50,11 +63,18 @@
       <a
         href="{{ .Permalink }}"
         class="card mb-4 text-decoration-none"
-        style="color: inherit"
+        style="color: inherit; position: relative;"
       >
         <div class="card-body">
           <h5 class="card-title">{{ .Title }}</h5>
           <p class="card-text">{{ .Params.description }}</p>
+          <!-- Ajout de la flèche -->
+          <div style="position: absolute; bottom: 10px; right: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.828 3.172a.5.5 0 0 1 .707 0l4 4a.5.5 0 0 1 0 .707l-4 4a.5.5 0 1 1-.707-.707L14.293 8 10.12 3.828a.5.5 0 0 1 0-.707z"/>
+              <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </div>
         </div>
       </a>
     </div>

@@ -1,6 +1,26 @@
 /* Importation des polices */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* General Layout
+========================================================================== */
+:root {
+  --SpacingSpacing-xxs: 4px;  /* Très petit espace */
+  --SpacingSpacing-xs: 8px;   /* Petit espace */
+  --SpacingSpacing-sm: 10px;  /* Petit-moyen espace */
+  --SpacingSpacing-s: 12px;   /* Espace moyen */
+  --SpacingSpacing-m: 16px;   /* Espace standard */
+  --SpacingSpacing-l: 24px;   /* Grand espace */
+  --SpacingSpacing-xl: 32px;  /* Très grand espace */
+  --SpacingSpacing-xxl: 48px; /* Espace extra large */
 
+  --Radius-xxs: 2px;   /* Très petit rayon */
+  --Radius-xs: 4px;    /* Petit rayon */
+  --Radius-s: 6px;     /* Rayon moyen */
+  --Radius-m: 8px;     /* Rayon standard */
+  --Radius-lg: 12px;    /* Grand rayon */
+  --Radius-xl: 16px;   /* Très grand rayon */
+  --Radius-xxl: 24px;  /* Rayon extra large */
+  --Radius-full: 50%;  /* Rayon complet pour des éléments circulaires */
+}
 /* ================================================== */
 /* Typographie générale */
 body {
@@ -142,14 +162,17 @@ table td a {
   color: white !important;
   text-align: center;
   border: none !important;
-  padding: 8px px !important;
-  background-color: black;
+  background-color: #151A22;
   font-weight: 400;
   line-height: 140%;
   border-width: 0;
   border-radius: 8px;
   box-shadow: unset;
-}
+  padding: var(--SpacingSpacing-xs) var(--SpacingSpacing-s) var(--SpacingSpacing-xs) var(--SpacingSpacing-s);
+  gap: var(--SpacingSpacing-xxs);
+  border-radius: var(--Radius-s);
+  text-decoration: none;
+  }
 
 .book-btn:focus {
   box-shadow: 0 0 0 0.25rem rgba(38, 38, 38);
@@ -159,7 +182,96 @@ table td a {
   opacity: 0.65;
 }
 .book-btn:hover {
-  background: linear-gradient(#54555a, #000);
+  background: linear-gradient(180deg, #5C5D63 0%, #202024 100%);
+  
+  text-decoration: none;
+
+}
+.book-btn:active {
+  background: var(--Neutral-900, #383F4F);
+  text-decoration: none;
+}
+.secondary-btn {
+  background: var(--Brand-Blue-500-Main, #3760EA);
+}
+
+.secondary-btn:focus {
+  box-shadow: 0 0 0 0.25rem #597BEE;
+}
+
+.secondary-btn:disabled {
+  background: var(--Brand-Blue-100, #C0CEFB);
+
+}
+.secondary-btn:hover {
+  background: linear-gradient(180deg, #597BEE 0%, #2E51C8 50%);
+  text-decoration: none;
+
+}
+.secondary-btn:active {
+  background: var(--Brand-Blue-600, #2E51C8);
+  text-decoration: none;
+}
+.tertiary-btn {
+  background: #FFFFFF;
+  border: 1px solid var(--Neutral-White, #FFFFFF);
+  color:#465161 !important;
+}
+
+.tertiary-btn:focus {
+  box-shadow: 0 0 0 0.25rem #597BEE;
+
+}
+
+.tertiary-btn:disabled {
+  background: #FFFFFF;
+  color: #9EB2F7;
+}
+.tertiary-btn:hover {
+  background: #F5F5FF;
+  text-decoration: none;
+  border: 1px solid #3760EA !important;
+}
+.tertiary-btn:active {
+  background: var(--Brand-Blue-50, #EEF2FF);
+  text-decoration: none;
+  border: 1px solid #3760EA !important;
+}
+/* CARD TAXONOMY */
+.card-body {
+  top: 16px;
+    left: 16px;
+    padding: var(--SpacingSpacing-sm);
+    gap: var(--SpacingSpacing-lg);
+    border-radius: var(--Radius-s);
+    background: var(--Neutral-DarkFont-1000, #151A22);
+    color: #fff
+}
+.card-body svg {
+  color: #9EB2F7 !important;
+}
+.card-body .card-title {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.card-body .card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-body:hover {
+  background: linear-gradient(0deg, #383F4F, #383F4F),
+linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
 }
 /* General styling for notice boxes */
 .notice {
@@ -433,3 +545,4 @@ table td a {
 .book-languages label {
   align-items: center;
 }
+
