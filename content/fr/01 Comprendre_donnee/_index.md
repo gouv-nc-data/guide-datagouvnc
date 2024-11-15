@@ -6,7 +6,6 @@ description: "Apprenez ce que sont les données et pourquoi elles sont important
 weight: 1
 ---
 
-
 Découvrez ce que sont les données et pourquoi elles sont importantes, et découvrez certains des termes, principes et cadres qui s'y rapportent.
 
 ## Qu'est-ce qu'une donnée ?
