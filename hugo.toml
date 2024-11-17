@@ -26,7 +26,7 @@ disableKinds = ['taxonomy']
 [params]
   BookTheme = 'light'
   BookToC = true
-  BookLogo = 'logo_datagouvnc.png'
+  BookLogo = 'Logo_GUIDEDATAGOUVNC.png'
   BookSection = '*'
   BookRepo = 'https://github.com/gouv-nc-data/guide-datagouvnc'
   BookCommitPath = 'commit'
@@ -43,7 +43,7 @@ disableKinds = ['taxonomy']
   [languages.fr]
     languageName = "Français"
     weight = 0
-    title = "data.gouv.nc - le guide"
+    title = ""
     languageCode = "fr"
     contentDir = "content/fr"
 
