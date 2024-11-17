@@ -631,3 +631,28 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
 
+.book-languages li label a {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.book-brand img {
+  height: 2em;
+  width:auto;
+  margin-inline-end: .5rem;
+  border-radius: 0;
+}
+.navbar {
+  background-color: #3760ea ;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+  display: flex;
+  -ms-flex-wrap: wrap ;
+  flex-wrap: nowrap !important ;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -ms-flex-pack: justify  !important;
+  justify-content: space-around !important;
+}
