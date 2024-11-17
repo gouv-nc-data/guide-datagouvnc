@@ -26,7 +26,7 @@ disableKinds = ['taxonomy']
 [params]
   BookTheme = 'light'
   BookToC = true
-  BookLogo = 'logo.png'
+  BookLogo = 'logo_datagouvnc.png'
   BookSection = '*'
   BookRepo = 'https://github.com/gouv-nc-data/guide-datagouvnc'
   BookCommitPath = 'commit'
@@ -37,59 +37,19 @@ disableKinds = ['taxonomy']
   BookPortableLinks = true
   BookServiceWorker = true
   BookFavicon = "favicon.png"
+  
 
 [languages]
   [languages.fr]
     languageName = "Français"
     weight = 0
-    title = "Guide de data.gouv.nc"
+    title = "data.gouv.nc - le guide"
     languageCode = "fr"
     contentDir = "content/fr"
 
   [languages.en]
     languageName = "English"
     weight = 2
-    title = "Guide of data.gouv.nc"
+    title = "data.gouv.nc - guide"
     languageCode = "en"
     contentDir = "content/en"
-
-[menu]
-  [[menu.main]]
-    name = "Présentation"
-    url = "/presentation/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Commencer"
-    url = "/commencer/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Documentation"
-    url = "/documentation/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Fonctionnalités"
-    url = "/fonctionnalites/"
-    weight = 4
-
-  [[menu.main]]
-    name = "Producteurs"
-    url = "/producteurs/"
-    weight = 5
-
-  [[menu.main]]
-    name = "Réutilisations"
-    url = "/reutilisations/"
-    weight = 6
-
-  [[menu.main]]
-    name = "APIs"
-    url = "/apis/"
-    weight = 7
-
-  [[menu.main]]
-    name = "Licence et droits"
-    url = "/licence-et-droits/"
-    weight = 8
