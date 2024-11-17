@@ -3,11 +3,13 @@ title: "Le cadre juridique de l’open data public en Nouvelle-Calédonie"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Prenez connaissance des dispositions juridiques applicables en Nouvelle-Calédonie"
-weight: 3
+weight: 1
 ---
+
 
 **_Objectifs:_**
 _Présenter le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie._
+
 
 ## La cadre juridique en Nouvelle-Calédonie
 En Nouvelle-Calédonie, l'État est responsable de garantir les libertés publiques, ce qui inclut le droit des citoyens à accéder aux documents administratifs. L'État fixe ainsi les règles sur comment et dans quelle mesure les citoyens peuvent obtenir ces informations.

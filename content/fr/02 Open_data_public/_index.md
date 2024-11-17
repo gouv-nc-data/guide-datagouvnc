@@ -1,15 +1,18 @@
 ---
-title: "Comprendre l'open data public"
+title: "L'open data public"
 date: 2024-11-15T11:15:12+11:00
 draft: false
-description: "Découvrez ce qu'est l'open data public"
+description: "Tout ce qu'il faut savoir sur l'open data"
 weight: 2
 ---
 
-Découvrez ici le concept d'open data public.
+
+**_Objectifs:_**
+_Découvrir ce qu'est l'open data public._
+
 
 ## Qu'est-ce que l’open data public ?
-L’ouverture des données publiques ou “open data public”, communément appelée simplement “open data”, est une démarche qui a pour objectif de mettre à disposition de tous (société civile, entreprises, chercheurs, associations, administrations...) les données produites, détenues ou collectées par les administrations dans le cadre de leurs missions de service public.
+L’ouverture des données publiques ou “open data public”, communément appelée “open data”, est une démarche qui a pour objectif de mettre à disposition de tous (société civile, entreprises, chercheurs, associations, administrations...) les données produites, détenues ou collectées par les administrations dans le cadre de leurs missions de service public.
 Ces données ouvertes ont vocation à être accessibles de manière libre et gratuite, sous leur forme la moins interprétée (données brutes) et le plus facilement réutilisable (données directement exploitables par une machine).
 Cela ne concerne ni les données à caractère personnel, ni les données sensibles couvertes par les différents secrets légaux ou par les droits de propriété intellectuelle, sauf conditions spécifiques.
 
