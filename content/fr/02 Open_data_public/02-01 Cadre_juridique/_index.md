@@ -4,6 +4,8 @@ date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Prenez connaissance des dispositions juridiques applicables en Nouvelle-Calédonie"
 weight: 1
+objectifs:
+- Comprendre le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie.
 ---
 
 

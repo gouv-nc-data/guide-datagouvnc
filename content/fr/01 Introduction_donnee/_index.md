@@ -4,12 +4,15 @@ date: 2024-11-15T10:42:12+11:00
 draft: false
 description: "Comprendre ce qu'est la donnée et pourquoi elle est importante"
 weight: 1
+objectifs:
+- Comprendre ce qu'est la donnée et pourquoi elle est importante.
+- Découvrir certains termes, principes et cadres qui s'y rapportent.
 ---
 
 
 **_Objectifs:_**
 - _Comprendre ce qu'est la donnée et pourquoi elle est importante._
-- _Découvrir certains termes, principes et cadres qui s'y rapportent._
+- _Découvrir certains termes, principes et cadres qui s'y rapportent.
 
 
 ## Qu'est-ce qu'une donnée ?
