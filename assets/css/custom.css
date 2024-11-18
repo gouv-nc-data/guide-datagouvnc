@@ -700,3 +700,31 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 .book-menu .book-menu-content, .book-toc .book-toc-content {
   width : 20rem !important;
 }
+
+
+.Objectif {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 5px solid #3760EA;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Objectif strong {
+  font-size: 1.2em;
+  color: #333; /* Couleur du texte pour le titre */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Objectif ul {
+  list-style-type: disc; /* Style des puces */
+  padding-left: 20px;
+}
+
+.Objectif li {
+  margin-bottom: 5px;
+  font-style: italic; /* Texte en italique */
+  color: #555; /* Couleur du texte pour les items */
+}

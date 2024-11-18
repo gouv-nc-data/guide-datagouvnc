@@ -9,4 +9,15 @@
     </li>
   {{ end }}
 </ul>
+{{ with .Params.objectifs }}
+<div class="Objectif">
+    <strong>Objectifs:</strong>
+    <ul>
+        {{ range . }}
+        <li><em>{{ . }}</em></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+
 {{ end }}
