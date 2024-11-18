@@ -4,5 +4,14 @@
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
-<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+<script>document.querySelector(".book-search").classList.remove("hidden")
+  document.getElementById('book-search-input').addEventListener('input', function() {
+  const resultsContainer = document.getElementById('book-search-results');
+  if (this.value.trim().length > 0) {
+    resultsContainer.style.display = 'block'; // Affiche l'encart de résultats
+  } else {
+    resultsContainer.style.display = 'none'; // Cache l'encart si l'input est vide
+  }
+});
+</script>
 {{ end }}

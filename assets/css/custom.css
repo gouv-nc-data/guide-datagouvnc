@@ -645,6 +645,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 .navbar {
   background-color: #3760ea ;
+  max-height: 100px;
 }
 
 .navbar>.container, .navbar>.container-fluid {
@@ -655,4 +656,35 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   align-items: center !important;
   -ms-flex-pack: justify  !important;
   justify-content: space-around !important;
+}
+
+.navbar .form-control {
+  max-width: 200px; /* Ajuste cette valeur selon tes besoins */
+  transition: all 0.3s ease; /* Ajoute une transition pour rendre l'animation plus fluide */
+}
+.form-control {
+  flex-shrink: 1;
+}
+#book-search-results {
+  position: absolute;
+  background-color: #ffffff; /* Couleur de fond blanc */
+  border: 1px solid #ddd; /* Bordure fine */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour l'effet */
+  z-index: 1; /* Pour s'assurer que l'encart soit au-dessus des autres éléments */
+  max-height: 200px; /* Hauteur maximale pour l'encart */
+  overflow-y: auto; /* Barre de défilement si les résultats dépassent la hauteur */
+  padding: 0%;
+  display: none;
+}
+#book-search-results:active , #book-search-results:focus,  #book-search-results:focus-visible {
+  display: block;
+}
+#book-search-results li {
+  padding: 8px 12px; /* Espacement interne des résultats */
+  cursor: pointer; /* Change le curseur pour montrer que c'est cliquable */
+  list-style: none;
+}
+
+#book-search-results li:hover {
+  background-color: #f1f1f1; /* Surligne le résultat au survol */
 }
