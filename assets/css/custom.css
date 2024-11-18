@@ -383,7 +383,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   padding: 0;
   margin: 0;
 }
-.book-menu .book-menu-content , .book-toc .book-toc-content {
+.book-menu .book-menu-content {
   width: 16rem;
     padding: 1rem;
     background: var(--body-background);
@@ -432,10 +432,20 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 
 .book-menu ul li ul li a {
   font-size: 13px;
-  padding-left: 5px;
+  padding : .375rem .375rem .375rem 1.25rem;
 }
 .book-menu .book-menu-content, .book-toc .book-toc-content {
   width : 20rem !important;
+}
+
+.book-toc .book-toc-content {
+  width: 16rem;
+  padding: 1rem;
+  position: relative; /*fixed conseillé */
+  top: 50px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 /* ================================================== */
 /* FAQ */
@@ -638,7 +648,10 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   justify-content: center;
   flex-direction: row;
 }
-
+.book-brand {
+  margin: 0px !important;
+  padding : 0px !important;
+}
 .book-brand img {
   height: 2em;
   width:auto;
