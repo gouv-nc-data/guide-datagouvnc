@@ -1,5 +1,5 @@
 ---
-title: "Le cadre juridique de l’open data public en Nouvelle-Calédonie"
+title: "Le cadre juridique"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Prenez connaissance des dispositions juridiques applicables en Nouvelle-Calédonie"
@@ -8,7 +8,7 @@ weight: 1
 
 
 **_Objectifs:_**
-_Présenter le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie._
+- _Comprendre le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie._
 
 
 ## La cadre juridique en Nouvelle-Calédonie
