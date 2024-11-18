@@ -9,12 +9,6 @@ objectifs:
 - Découvrir certains termes, principes et cadres qui s'y rapportent.
 ---
 
-
-**_Objectifs:_**
-- _Comprendre ce qu'est la donnée et pourquoi elle est importante._
-- _Découvrir certains termes, principes et cadres qui s'y rapportent.
-
-
 ## Qu'est-ce qu'une donnée ?
 Les données sont un type d'information, souvent des faits ou des chiffres, qui sont collectées pour être catégorisées, analysées et utilisées afin de faciliter la prise de décision. Elles peuvent provenir de sources variées, comme des études scientifiques, des recensements, des transactions, ou encore des relevés environnementaux. Ces données, une fois interprétées, permettent de dégager des tendances, d’innover, et de prendre des décisions plus éclairées.
 

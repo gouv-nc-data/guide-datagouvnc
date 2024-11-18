@@ -9,10 +9,6 @@ objectifs:
 ---
 
 
-**_Objectifs:_**
-- _Comprendre le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie._
-
-
 ## La cadre juridique en Nouvelle-Calédonie
 En Nouvelle-Calédonie, l'État est responsable de garantir les libertés publiques, ce qui inclut le droit des citoyens à accéder aux documents administratifs. L'État fixe ainsi les règles sur comment et dans quelle mesure les citoyens peuvent obtenir ces informations.
 

@@ -9,9 +9,6 @@ objectifs:
 ---
 
 
-**_Objectifs:_**
-- _A compléter._
-- _A compléter._
 
 
 ## Qu'est-ce qu'un jeu de données ?

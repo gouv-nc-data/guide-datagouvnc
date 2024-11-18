@@ -9,9 +9,6 @@ objectifs:
 ---
 
 
-**_Objectifs:_**
-_A compléter_
-
 
 ## Qu'est-ce que l’open data public ?
 L’ouverture des données publiques ou “open data public”, communément appelée “open data”, est une démarche qui a pour objectif de mettre à disposition de tous (société civile, entreprises, chercheurs, associations, administrations...) les données produites, détenues ou collectées par les administrations dans le cadre de leurs missions de service public.
