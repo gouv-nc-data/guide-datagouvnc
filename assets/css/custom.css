@@ -401,7 +401,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 .book-menu ul li a {
   font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: .375rem .375rem .375rem 1.25rem;
   display: block;
   border-left: 3px solid transparent;
   transition: .3s ease;
@@ -434,7 +434,9 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   font-size: 13px;
   padding-left: 5px;
 }
-
+.book-menu .book-menu-content, .book-toc .book-toc-content {
+  width : 20rem !important;
+}
 /* ================================================== */
 /* FAQ */
 .faq details {
@@ -640,12 +642,11 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 .book-brand img {
   height: 2em;
   width:auto;
-  margin-inline-end: .5rem;
   border-radius: 0;
+  margin : 0px !important;
 }
 .navbar {
   background-color: #3760ea ;
-  max-height: 100px;
 }
 
 .navbar>.container, .navbar>.container-fluid {
@@ -696,10 +697,32 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   box-shadow: 0px 1px 26px 0px #0000005f !important;
 
 }
+/* Styles supplémentaires pour rendre la navigation responsive */
+@media (max-width: 768px) {
+  .navbar>.container, .navbar>.container-fluid {
+    flex-wrap: wrap !important; /* Permet à la navigation de se plier en mode colonne */
+    justify-content: center !important; /* Centre le contenu */
+  }
+  
+  .navbar .form-control {
+    max-width: 100%; /* Utilise toute la largeur disponible */
+    margin-top: 0.5rem; /* Ajoute un espacement au-dessus pour séparer du reste */
+  }
+  
+  .navbar-brand {
+    width: 100%; /* Prend toute la largeur */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem; /* Ajoute un espace en bas */
+  }
 
-.book-menu .book-menu-content, .book-toc .book-toc-content {
-  width : 20rem !important;
+  .d-flex {
+    width: 100%; /* Utilise toute la largeur disponible */
+    justify-content: center; /* Centre le formulaire */
+  }
 }
+
+
 
 
 .Objectif {
