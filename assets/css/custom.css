@@ -702,29 +702,42 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
 
+
 .Objectif {
   margin-top: 20px;
-  padding: 15px;
-  border-left: 5px solid #3760EA;
-  background-color: #f9f9f9;
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc épuré */
+  border-left: 4px solid  #3760ea; /* Accent de couleur moderne */
   border-radius: 5px;
-  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
 }
 
 .Objectif strong {
-  font-size: 1.2em;
-  color: #333; /* Couleur du texte pour le titre */
-  display: block;
+  font-size: 1.3em;
+  color: #212121; /* Couleur sobre pour le titre */
   margin-bottom: 10px;
+  display: block;
 }
 
 .Objectif ul {
-  list-style-type: disc; /* Style des puces */
-  padding-left: 20px;
+  list-style-type: none; /* Pas de puces pour un style minimaliste */
+  padding-left: 0;
+  margin-top: 10px;
 }
 
 .Objectif li {
-  margin-bottom: 5px;
-  font-style: italic; /* Texte en italique */
-  color: #555; /* Couleur du texte pour les items */
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-style: normal; /* Texte standard */
+  color: #424242; /* Couleur grise moderne */
+}
+
+.Objectif li::before {
+  content: '•'; /* Puce personnalisée */
+  position: absolute;
+  left: 0;
+  color: #3760ea; /* Même couleur que l'accent */
+  font-size: 1.2em;
+  line-height: 1;
 }
