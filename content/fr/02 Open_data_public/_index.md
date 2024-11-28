@@ -1,5 +1,5 @@
 ---
-title: "L'open data public"
+title: "Open data public"
 date: 2024-11-15T11:15:12+11:00
 draft: false
 description: "Tout ce qu'il faut savoir sur l'open data"
