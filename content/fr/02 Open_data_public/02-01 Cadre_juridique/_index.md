@@ -1,5 +1,5 @@
 ---
-title: "Le cadre juridique"
+title: "Cadre juridique"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Prenez connaissance des dispositions juridiques applicables en Nouvelle-Calédonie"
