@@ -50,6 +50,6 @@ disableKinds = ['taxonomy']
   [languages.en]
     languageName = "English"
     weight = 2
-    title = "data.gouv.nc - guide"
+    title = ""
     languageCode = "en"
     contentDir = "content/en"

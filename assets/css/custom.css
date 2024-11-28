@@ -383,7 +383,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   padding: 0;
   margin: 0;
 }
-.book-menu .book-menu-content , .book-toc .book-toc-content {
+.book-menu .book-menu-content {
   width: 16rem;
     padding: 1rem;
     background: var(--body-background);
@@ -401,7 +401,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 .book-menu ul li a {
   font-family: "IBM Plex Sans", sans-serif;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: .375rem .375rem .375rem 1.25rem;
   display: block;
   border-left: 3px solid transparent;
   transition: .3s ease;
@@ -432,9 +432,21 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 
 .book-menu ul li ul li a {
   font-size: 13px;
-  padding-left: 5px;
+  padding : .375rem .375rem .375rem 1.25rem;
+}
+.book-menu .book-menu-content, .book-toc .book-toc-content {
+  width : 20rem !important;
 }
 
+.book-toc .book-toc-content {
+  width: 16rem;
+  padding: 1rem;
+  position: relative; /*fixed conseillé */
+  top: 50px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 /* ================================================== */
 /* FAQ */
 .faq details {
@@ -636,16 +648,18 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   justify-content: center;
   flex-direction: row;
 }
-
+.book-brand {
+  margin: 0px !important;
+  padding : 0px !important;
+}
 .book-brand img {
   height: 2em;
   width:auto;
-  margin-inline-end: .5rem;
   border-radius: 0;
+  margin : 0px !important;
 }
 .navbar {
   background-color: #3760ea ;
-  max-height: 100px;
 }
 
 .navbar>.container, .navbar>.container-fluid {
@@ -693,6 +707,61 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: var(--Radius-s);
 }
 .book-search input:hover {
-  box-shadow: 0px 1px 26px 0px #00000048 !important;
+  box-shadow: 0px 1px 26px 0px #0000005f !important;
 
+}
+/* Styles supplémentaires pour rendre la navigation responsive */
+@media (max-width: 768px) {
+  .navbar>.container, .navbar>.container-fluid {
+    flex-wrap: wrap !important; /* Permet à la navigation de se plier en mode colonne */
+    justify-content: center !important; /* Centre le contenu */
+  }
+  
+  .navbar .form-control {
+    max-width: 100%; /* Utilise toute la largeur disponible */
+    margin-top: 0.5rem; /* Ajoute un espacement au-dessus pour séparer du reste */
+  }
+  
+  .navbar-brand {
+    width: 100%; /* Prend toute la largeur */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem; /* Ajoute un espace en bas */
+  }
+
+  .d-flex {
+    width: 100%; /* Utilise toute la largeur disponible */
+    justify-content: center; /* Centre le formulaire */
+  }
+}
+
+
+
+
+.Objectif {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 5px solid #3760EA;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Objectif strong {
+  font-size: 1.2em;
+  color: #333; /* Couleur du texte pour le titre */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Objectif ul {
+  list-style-type: disc; /* Style des puces */
+  padding-left: 20px;
+}
+
+.Objectif li {
+  content: '•'; /* Puce personnalisée */
+  margin-bottom: 5px;
+  font-style: italic; /* Texte en italique */
+  color: #555; /* Couleur du texte pour les items */
 }

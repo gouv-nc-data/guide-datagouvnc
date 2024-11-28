@@ -4,13 +4,10 @@ date: 2024-11-15T10:42:12+11:00
 draft: false
 description: "Comprendre ce qu'est la donnée et pourquoi elle est importante"
 weight: 1
+objectifs:
+- Comprendre ce qu'est la donnée et pourquoi elle est importante.
+- Découvrir certains termes, principes et cadres qui s'y rapportent.
 ---
-
-
-**_Objectifs:_**
-- _Comprendre ce qu'est la donnée et pourquoi elle est importante._
-- _Découvrir certains termes, principes et cadres qui s'y rapportent._
-
 
 ## Qu'est-ce qu'une donnée ?
 Les données sont un type d'information, souvent des faits ou des chiffres, qui sont collectées pour être catégorisées, analysées et utilisées afin de faciliter la prise de décision. Elles peuvent provenir de sources variées, comme des études scientifiques, des recensements, des transactions, ou encore des relevés environnementaux. Ces données, une fois interprétées, permettent de dégager des tendances, d’innover, et de prendre des décisions plus éclairées.

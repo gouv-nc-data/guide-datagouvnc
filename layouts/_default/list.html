@@ -3,9 +3,21 @@
   <div class="row">
     <!-- Contenu principal de la page -->
     <div class="col-md-12"><h1>{{ .Title }}</h1></div>
-
+    {{ with .Params.objectifs }}
+    <div class="Objectif">
+        <strong>Objectifs:</strong>
+        <ul>
+            {{ range . }}
+            <li><em>{{ . }}</em></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+    
     <div class="col-md-12">{{ .Content }}</div>
     <!-- Boucle sur les pages directes de la section actuelle -->
+    <div class="col-md-12 my-2">  <hr /> </div>
+
     {{ range .Pages }}
     <div class="col-md-6">
       <a
