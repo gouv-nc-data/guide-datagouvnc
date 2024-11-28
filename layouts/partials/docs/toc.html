@@ -1,3 +1,6 @@
-{{ partial "docs/inject/toc-before" . }}
-{{ .TableOfContents }}
-{{ partial "docs/inject/toc-after" . }}
+{{ partial "docs/inject/toc-before" . }} {{ $lang := .Site.Language.Lang }}{{/*
+Obtenir la langue actuelle */}} {{ if eq $lang "fr" }}
+<h5>Dans cette page</h5>
+{{ else }}
+<h5>On this page</h5>
+{{ end }} {{ .TableOfContents }} {{ partial "docs/inject/toc-after" . }}
