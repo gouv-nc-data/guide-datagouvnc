@@ -1,5 +1,5 @@
 ---
-title: "Données à fort potentiel"
+title: "Données Entreprises"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Ceci est le descriptif dans la card récap en noir"
@@ -8,6 +8,10 @@ objectifs:
 - A completer.
 ---
 
+
+**_Objectifs:_**
+- _A compléter._
+- _A compléter._
 
 
 ## Lorem Ipsum Titre 2
