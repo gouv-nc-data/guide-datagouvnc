@@ -767,3 +767,11 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   font-style: italic; /* Texte en italique */
   color: #555; /* Couleur du texte pour les items */
 }
+@media screen and (max-width: 56rem) {
+  .book-menu {
+      visibility: hidden;
+      margin-inline-start: -21rem;
+      font-size: 16px;
+      z-index: 1;
+  }
+}
