@@ -774,4 +774,9 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
       font-size: 16px;
       z-index: 1;
   }
+  #menu-control:checked~main .book-menu .book-menu-content {
+    transform: translateX(16rem);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
+    margin-inline-start: 2.5rem;
+}
 }

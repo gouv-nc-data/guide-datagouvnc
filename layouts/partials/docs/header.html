@@ -5,7 +5,7 @@
 
   <h3>{{ partial "docs/title" . }}</h3>
 
-  <label for="toc-control">
+  <label for="toc-control" style="visibility:hidden;">
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
     <img src="{{ "svg/toc.svg" | relURL }}" class="book-icon" alt="Table of Contents" />
     {{ end }}
