@@ -1,13 +1,11 @@
 ---
-title: "Guide du producteur de données"
+title: "Glossaire"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Retrouvez ici les définitions des principaux concepts dans le domaine de la donnée"
 weight: 6
 objectifs:
 ---
-
-# Glossaire des termes liés aux données
 
 ## **A**
 - **API (Application Programming Interface)** : Interface qui permet à des applications de communiquer entre elles en accédant à certaines fonctionnalités ou données d'une autre application ou service.
@@ -58,19 +56,3 @@ objectifs:
 
 ## **V**
 - **Visualisation de données (Dataviz)** : Représentation graphique ou interactive des données pour faciliter leur interprétation.
-
-
-{< glossary title="Ceci est le Titre de mon Glossaire" >}
-
-{< glossary-term term="Standard de données" >}
-Ensemble de normes et de bonnes pratiques pour organiser et échanger les données (ex. : INSPIRE pour les données géographiques).
-{< /glossary-term >}
-
-{< glossary-term term="Traitement des données" >}
-Ensemble des opérations effectuées sur des données (nettoyage, agrégation, analyse).
-{< /glossary-term >}
-
-{< glossary-term term="Visualisation de données (Dataviz)" >}
-Représentation graphique ou interactive des données pour faciliter leur interprétation.
-{< /glossary-term >}
-{< /glossary >}
