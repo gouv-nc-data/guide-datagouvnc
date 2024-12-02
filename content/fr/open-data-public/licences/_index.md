@@ -1,5 +1,5 @@
 ---
-title: "Licences des données ouvertes"
+title: "Licences"
 date: 2024-11-15T11:18:12+11:00
 draft: false
 description: "Découvrez les conditions d’utilisation des données ouvertes"

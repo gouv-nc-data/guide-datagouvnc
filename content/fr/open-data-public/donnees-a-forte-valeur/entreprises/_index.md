@@ -2,10 +2,13 @@
 title: "Données Entreprises"
 date: 2024-11-15T11:18:12+11:00
 draft: false
-description: "Ceci est le descriptif dans la card récap en noir"
+description: "Découvrez le référentiel des entreprises"
 weight: 2
 objectifs:
-- A completer.
+- Comprendre ce qu'est le référentiel des entreprises et les partenaires impliqués
+- Eclaircir les subtilités autour des notions d'entreprise et d'établissement
+- Découvrir le service d'annuaire des entreprises
+- Découvrir le service d'API des entreprises
 ---
 
 

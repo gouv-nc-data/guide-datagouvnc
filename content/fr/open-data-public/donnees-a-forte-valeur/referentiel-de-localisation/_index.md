@@ -2,10 +2,12 @@
 title: "Référentiel de localisation"
 date: 2024-11-15T11:18:12+11:00
 draft: false
-description: "Ceci est le descriptif dans la card récap en noir"
+description: "Découvrez le concept de référentiel de localisation de Nouvelle-Calédonie"
 weight: 1
 objectifs:
-- A completer.
+- Comprendre ce qu'est le référentiel de localisation de Nouvelle-Calédonie
+- Eclaircir les subtilités autour des notions d'adresse, de parcelle cadastrale, de POI
+- Découvrir le service d'API de géocodage
 ---
 
 

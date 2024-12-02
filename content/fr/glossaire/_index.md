@@ -39,7 +39,7 @@ objectifs:
 - **Modèle de données** : Structure conceptuelle définissant la manière dont les données sont organisées et reliées.
 
 ## **O**
-- **Opendata** : Initiative visant à rendre les données accessibles à tous, souvent dans un cadre légal ou institutionnel.
+- **Open data** : Initiative visant à rendre les données accessibles à tous, souvent dans un cadre légal ou institutionnel.
 
 ## **P**
 - **Pseudonymisation** : Technique permettant de remplacer les données identifiantes par des alias, afin de protéger la vie privée tout en conservant des liens fonctionnels dans les données.
