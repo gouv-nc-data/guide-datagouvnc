@@ -1,4 +1,4 @@
-baseURL = 'https:/data.gouv.nc/'
+baseURL = 'https:/guide.data.gouv.nc/'
 languageCode = 'fr'
 defaultContentLanguage = 'fr'
 title = 'data.gouv.nc'
