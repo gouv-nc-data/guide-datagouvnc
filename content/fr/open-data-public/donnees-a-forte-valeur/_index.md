@@ -6,7 +6,7 @@ description: "Explorez les données stratégiques et d’intérêt général"
 weight: 3
 objectifs:
 - Sensibiliser à l’importance des données à forte valeur pour le développement de la Nouvelle-Calédonie.  
-- Fournir des informations et des outils pour utiliser ces données efficacement.  
+- Identifier et décrire les données considérées comme ayant une grande valeur pour le public, l'économie ou la recherche, afin de prioriser leur ouverture et leur utilisation.
 ---
 
 ## Qu’est-ce qu’une donnée à forte valeur ?

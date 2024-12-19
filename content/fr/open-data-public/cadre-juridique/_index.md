@@ -5,7 +5,7 @@ draft: false
 description: "Prenez connaissance des dispositions juridiques applicables en Nouvelle-Calédonie"
 weight: 1
 objectifs:
-- Comprendre le cadre légal de l'ouverture et de la réutilisation des données publiques en Nouvelle-Calédonie.
+- Présenter les lois et réglementations encadrant l'ouverture des données publiques en Nouvelle-Calédonie, afin d'assurer une utilisation conforme et responsable.
 ---
 
 

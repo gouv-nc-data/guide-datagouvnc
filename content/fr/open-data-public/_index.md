@@ -5,7 +5,7 @@ draft: false
 description: "Tout ce qu'il faut savoir sur l'open data"
 weight: 2
 objectifs:
-- Comprendre ce qu'est l'open data public
+- Expliquer le concept d'open data, ses avantages, et comment les données publiques ouvertes peuvent être utilisées pour promouvoir la transparence, l'efficacité et la participation citoyenne.
 ---
 
 
