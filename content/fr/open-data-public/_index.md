@@ -5,7 +5,7 @@ draft: false
 description: "Tout ce qu'il faut savoir sur l'open data"
 weight: 2
 objectifs:
-- A completer.
+- Comprendre ce qu'est l'open data public
 ---
 
 
