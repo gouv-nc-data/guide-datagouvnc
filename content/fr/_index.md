@@ -11,4 +11,3 @@ Rendre les données de la Nouvelle-Calédonie accessibles et compréhensibles po
 
 ## Mission
 **Data.gouv.nc** est la plateforme de référence en matière de données pour la Nouvelle-Calédonie. Lancée initialement en 2020 comme portail open data, elle évolue en 2024 pour centraliser des jeux de données, des API, et des guides utiles pour mieux comprendre et utiliser les données calédoniennes.
- ESSAI
