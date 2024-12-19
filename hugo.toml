@@ -47,9 +47,3 @@ disableKinds = ['taxonomy']
     languageCode = "fr"
     contentDir = "content/fr"
 
-  [languages.en]
-    languageName = "English"
-    weight = 2
-    title = ""
-    languageCode = "en"
-    contentDir = "content/en"
