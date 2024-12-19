@@ -2,8 +2,3 @@
   languageName = "Français"
   title = "Guide de data.gouv.nc"
   description = "Bienvenue dans le guide officielle de data.gouv.nc."
-
-[languages.en]
-  languageName = "English"
-  title = "Guide of data.gouv.nc"
-  description = "Welcome to the official guide of data.gouv.nc."

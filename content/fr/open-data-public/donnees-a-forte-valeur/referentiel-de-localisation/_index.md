@@ -1,7 +1,7 @@
 ---
 title: "Référentiel de localisation"
 date: 2024-11-15T11:18:12+11:00
-draft: false
+draft: true
 description: "Découvrez le concept de référentiel de localisation de Nouvelle-Calédonie"
 weight: 1
 objectifs:

@@ -54,9 +54,9 @@ Toute utilisation non conforme peut engager la responsabilité juridique du réu
 
 ### Références juridiques
 La [Licence Ouverte](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) s'appuie sur le cadre juridique français :
-- **Loi n° 78-753 du 17 juillet 1978** relative à l'accès aux documents administratifs.
-- **Loi pour une République numérique** (7 octobre 2016) qui renforce l'ouverture des données publiques.
-- **Ordonnance n° 2021-650 du 26 mai 2021** transposant la directive européenne sur les données ouvertes et la réutilisation des informations du secteur public.
+- **[Loi n° 78-753 du 17 juillet 1978](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000339241)** relative à l'accès aux documents administratifs.
+- **[Loi pour une République numérique](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000031589829/)** (7 octobre 2016) qui renforce l'ouverture des données publiques.
+- **[Ordonnance n° 2021-650 du 26 mai 2021](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043534846)** transposant la directive européenne sur les données ouvertes et la réutilisation des informations du secteur public.
 
 
 ## Diversité des licences sur la plateforme

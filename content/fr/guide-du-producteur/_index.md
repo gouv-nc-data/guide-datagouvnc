@@ -1,7 +1,7 @@
 ---
 title: "Guide du producteur de données"
 date: 2024-11-15T11:18:12+11:00
-draft: false
+draft: true
 description: "Ceci est le descriptif dans la card récap en noir"
 weight: 4
 objectifs:
