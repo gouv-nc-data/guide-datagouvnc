@@ -1,7 +1,7 @@
 ---
 title: "Données Entreprises"
 date: 2024-11-15T11:18:12+11:00
-draft: false
+draft: true
 description: "Découvrez le référentiel des entreprises"
 weight: 2
 objectifs:
@@ -10,11 +10,6 @@ objectifs:
 - Découvrir le service d'annuaire des entreprises
 - Découvrir le service d'API des entreprises
 ---
-
-
-**_Objectifs:_**
-- _A compléter._
-- _A compléter._
 
 
 ## Lorem Ipsum Titre 2
