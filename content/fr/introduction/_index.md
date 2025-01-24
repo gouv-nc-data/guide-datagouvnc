@@ -5,8 +5,7 @@ draft: false
 description: "Comprendre ce qu'est la donnée et pourquoi elle est importante"
 weight: 1
 objectifs:
-- Comprendre ce qu'est la donnée et pourquoi elle est importante.
-- Découvrir certains termes, principes et cadres qui s'y rapportent.
+- Fournir une compréhension fondamentale des données, de leur importance et de leur rôle dans la prise de décision et l'innovation en Nouvelle-Calédonie.
 ---
 
 ## Qu'est-ce qu'une donnée ?
