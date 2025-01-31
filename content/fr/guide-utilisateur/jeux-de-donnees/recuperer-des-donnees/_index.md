@@ -21,8 +21,14 @@ Pour ceux-là, une fois le jeu de données identifié :
 
 Certains jeux de données sont simplement référencés sur la plateforme mais sont hébergés sur les plateformes open data partenaires, comme par exemple [https://georep-dtsi-sgt.opendata.arcgis.com/](la plateforme de téléchargement du Géorep), [https://data.noumea.nc/](la plateforme open data de la Ville de Nouméa) ou [https://maps.opendata.opt.nc/](la plateforme open data SIG de l'OPT-NC). Pour ces données, vous serez directement redirigé vers les plateformes sources, depuis lesquelles vous pourrez réaliser vos téléchargements.
 
+
+💡 Astuce : Pour une intégration automatisée, l'onglet API fournit les informations nécessaires pour accéder aux données via des requêtes API.
+<!--Rendez-vous sur le guide du développeur pour plus d'informations -->
+
+<!--
 ## Comment utiliser l'API des jeux de données ?
 #### MEMO HOUY-SY
 {{< notice type="error" >}}
 Renvoyer ici vers la page du guide du développeur
-{{< /notice >}}
+{{< /notice >}} 
+-->

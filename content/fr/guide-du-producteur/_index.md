@@ -2,7 +2,7 @@
 title: "Guide du producteur de données"
 date: 2024-11-15T11:18:12+11:00
 draft: true
-description: "Ceci est le descriptif dans la card récap en noir"
+description: "Comment publier efficacement ses données pour en maximiser l'impact."
 weight: 4
 objectifs:
 - A completer.
