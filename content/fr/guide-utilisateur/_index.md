@@ -3,7 +3,7 @@ title: "Guide de l'utilisateur"
 date: 2024-11-15T11:18:12+11:00
 draft: true
 description: "Comment rechercher, explorer et utiliser les données de data.gouv.nc: un guide pas à pas pour tirer le meilleur parti du portail."
-"
+
 weight: 3
 objectifs:
 - Comprendre ce que sont les jeux de données ouvertes et leur utilité.
