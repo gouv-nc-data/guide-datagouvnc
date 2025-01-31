@@ -2,31 +2,13 @@
 title: "Guide de l'utilisateur"
 date: 2024-11-15T11:18:12+11:00
 draft: true
-description: "Ceci est le descriptif dans la card récap en noir"
+description: "Comment rechercher, explorer et utiliser les données de data.gouv.nc: un guide pas à pas pour tirer le meilleur parti du portail."
+
 weight: 3
 objectifs:
-- A completer.
+- Comprendre ce que sont les jeux de données ouvertes et leur utilité.
+- Trouver et utiliser les jeux de données adaptés à vos besoins
+- Découvrir la notion de réutilisation de données et contribuer au partage de vos réalisations
 ---
 
-## Lorem Ipsum Titre 2
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry:
-- *Lorem ipsum* : dolor sit amet, consectetur adipiscing elit.
-- *Lorem ipsum* :Phasellus sit amet nunc sagittis, porttitor leo sed, egestas odio.
-- *Lorem ipsum* :Duis nec elit semper augue viverra iaculis ut eget dolor.
-- *Lorem ipsum* :Ut venenatis nunc ut orci ornare tristique.
-
-## Lorem Ipsum Titre 2
-
-### Lorem Ipsum Titre 3
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry:
-- *Lorem ipsum* : dolor sit amet, consectetur adipiscing elit.
-- *Lorem ipsum* :Phasellus sit amet nunc sagittis, porttitor leo sed, egestas odio.
-- *Lorem ipsum* :Duis nec elit semper augue viverra iaculis ut eget dolor.
-- *Lorem ipsum* :Ut venenatis nunc ut orci ornare tristique.
-
-### Lorem Ipsum Titre 3
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Le portail [https://data.gouv.nc](data.gouv.nc) met à votre disposition une large gamme de données ouvertes, accessibles à tous. Que vous soyez citoyen, étudiant, chercheur, entrepreneur ou membre d’une administration, ce guide vous aidera à trouver, explorer et utiliser les données disponibles sur la plateforme.

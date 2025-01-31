@@ -2,7 +2,7 @@
 title: "Guide du développeur"
 date: 2024-11-15T11:18:12+11:00
 draft: true
-description: "Ceci est le descriptif dans la card récap en noir"
+description: "Comment accéder aux API et intégrer les données dans vos applications"
 weight: 5
 objectifs:
 - A completer.

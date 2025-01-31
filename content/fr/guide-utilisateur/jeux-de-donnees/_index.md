@@ -2,11 +2,14 @@
 title: "Jeux de données"
 date: 2024-11-15T11:18:12+11:00
 draft: false
-description: Apprenez à rechercher, comprendre, télécharger et utiliser les jeux de données disponibles sur la plateforme."
-weight: 3
+description: "Comment rechercher, comprendre, télécharger et utiliser les jeux de données disponibles sur la plateforme."
+weight: 1
 objectifs:
+- Comprendre ce qu'est un jeu de données 
+- Rechercher et trouver des jeux de données adaptés à vos besoins.
+- Explorer et visualiser les données grâce aux outils du portail
 - Télécharger les jeux de données pour les utiliser.
-- Utiliser les outils de création de graphique ou de carte de la plateforme.
+
 ---
 
 ## Qu’est-ce qu’un jeu de données ?
