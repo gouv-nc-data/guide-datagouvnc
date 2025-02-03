@@ -15,7 +15,7 @@ Les données ouvertes de Nouvelle-Calédonie sont déjà exploitées dans de nom
 Les réutilisations référencées sur data.gouv.nc sont accessibles directement sur le portail. Pour les découvrir :
 
 1. **Explorer la galerie des réutilisations** :  
-➡️ Consultez la [https://data.gouv.nc/pages/les-reutilisations](section dédiée aux réutilisations) sur le portail pour voir des exemples concrets d’utilisation des données ouvertes.  
+➡️ Consultez la [section dédiée aux réutilisations](https://data.gouv.nc/pages/les-reutilisations) sur le portail pour voir des exemples concrets d’utilisation des données ouvertes.  
 
 2. **Filtrer la galerie** :  
 ➡️ Utilisez les fitres (mot-clé, jeu de données, producteur, tag) pour afficher votre recherche.  
