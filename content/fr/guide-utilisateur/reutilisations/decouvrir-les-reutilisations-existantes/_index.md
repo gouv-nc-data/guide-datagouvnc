@@ -14,13 +14,13 @@ Les données ouvertes de Nouvelle-Calédonie sont déjà exploitées dans de nom
 ## Où trouver les réutilisations ?
 Les réutilisations référencées sur data.gouv.nc sont accessibles directement sur le portail. Pour les découvrir :
 
-1️⃣ *Explorer la galerie des réutilisations* :  
+1. **Explorer la galerie des réutilisations** :  
 ➡️ Consultez la [https://data.gouv.nc/pages/les-reutilisations](section dédiée aux réutilisations) sur le portail pour voir des exemples concrets d’utilisation des données ouvertes.  
 
-2️⃣ *Filtrer la galerie* :  
+2. **Filtrer la galerie** :  
 ➡️ Utilisez les fitres (mot-clé, jeu de données, producteur, tag) pour afficher votre recherche.  
 
-3️⃣ *Cliquer sur la carte de réutilisation*:  
+3. **Cliquer sur la carte de réutilisation** :  
 ➡️ Vous serez redirigé directement vers la réutilisation.  
 
 💡 **Astuce :** En consultant une réutilisation, vous pouvez voir quels jeux de données ont été utilisés et ainsi mieux comprendre leur potentiel.

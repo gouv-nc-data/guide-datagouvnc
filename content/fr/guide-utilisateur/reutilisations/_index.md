@@ -22,7 +22,7 @@ Une réutilisation est toute transformation ou exploitation d’un jeu de donné
 - **Analyses et études** : Recherches ou rapports exploitant des données ouvertes pour éclairer un sujet.
 - **Services et API** : Intégration des données ouvertes dans des solutions numériques (automatisation, intelligence artificielle, etc.).
 
-📌 *Exemple :* Une carte interactive affichant en temps réel les transports en commun à Nouméa à partir des données ouvertes du réseau de transport.
+📌 **Exemple :** Une carte interactive affichant en temps réel les transports en commun à Nouméa à partir des données ouvertes du réseau de transport.
 
 
 ## Pourquoi référencer une réutilisation ?
