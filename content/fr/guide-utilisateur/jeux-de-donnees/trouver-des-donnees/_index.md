@@ -35,7 +35,7 @@ Il y a 2 types de jeux de données:
 1. **Jeux de données hébergés directement sur la plateforme :** cela représente la plupart des jeux de données
 2. **Jeux de données ne contenant que la description des métadonnées :**  certains jeux de données sont simplement référencés sur la plateforme mais les données sont accessibles ailleurs:
 - soit via un lien de téléchargement direct (Par exemple, quand les données sont trop volumineuses et nécessitent d'être stockées ailleurs)
-- soit via un lien vers un jeu de données sur une plateforme open data d'un partenaire, comme par exemple [la plateforme de téléchargement du Géorep](https://georep-dtsi-sgt.opendata.arcgis.com/), [la plateforme open data de la Ville de Nouméa](https://data.noumea.nc/) ou [la plateforme open data SIG de l'OPT-NC](https://maps.opendata.opt.nc/). Pour ces données, vous serez directement redirigé vers les plateformes sources, depuis lesquelles vous pourrez réaliser vos téléchargements.
+- soit via un lien vers un jeu de données sur une plateforme open data d'un partenaire, comme par exemple **[la plateforme de téléchargement du Géorep](https://georep-dtsi-sgt.opendata.arcgis.com/)**, **[la plateforme open data de la Ville de Nouméa](https://data.noumea.nc/)** ou **[la plateforme open data SIG de l'OPT-NC](https://maps.opendata.opt.nc/)**. Pour ces données, vous serez directement redirigé vers les plateformes sources, depuis lesquelles vous pourrez réaliser vos téléchargements.
 
 ## Vous ne trouvez pas une donnée ?
 

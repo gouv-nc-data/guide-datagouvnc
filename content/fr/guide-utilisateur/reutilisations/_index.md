@@ -8,7 +8,7 @@ objectifs:
 - Comprendre ce qu'est une réutilisation
 ---
 
-
+##  
 Les données ouvertes ne servent pas uniquement à être consultées, elles sont avant tout un levier d’innovation et de création. Grâce aux réutilisations, citoyens, entreprises et institutions transforment ces données en applications, visualisations et analyses qui apportent de la valeur à la société.
 
 Ce guide vous explique ce qu’est une réutilisation et pourquoi il est important de la référencer sur le portail.
