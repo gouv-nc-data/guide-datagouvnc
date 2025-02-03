@@ -6,19 +6,20 @@ description: "Comment rechercher, comprendre, télécharger et utiliser les jeux
 weight: 1
 objectifs:
 - Comprendre ce qu'est un jeu de données 
-- Rechercher et trouver des jeux de données adaptés à vos besoins.
+- Rechercher et trouver des jeux de données adaptés à vos besoins
 - Explorer et visualiser les données grâce aux outils du portail
-- Télécharger les jeux de données pour les utiliser.
+- Télécharger les jeux de données pour les utiliser
 
 ---
 
 ## Qu’est-ce qu’un jeu de données ?
 
-Un **jeu de données** est un ensemble structuré d’informations mises à disposition sur la plateforme. Chaque jeu de données inclut :
+Un **jeu de données** est un ensemble structuré d’informations mises à disposition sur la plateforme.  
+Chaque jeu de données inclut :
 - **Les données brutes** : Par exemple, des listes, des tableaux ou des informations géographiques.  
 - **Des métadonnées** : Une description du contenu, le producteur de données, les mots-clés, la (ou les) thématique(s), la date de mise à jour, la licence associée, etc. Ces informations permettent de mieux comprendre le contexte et l’utilisation potentielle des données.
 
-Exemples de jeux de données:
+### Exemples de jeux de données:
 - **Données démographiques** : Recensement de la population
 - **Données météorologiques** : Historique des trajectoires et des positions des cyclones
 - **Données d'aménagement** : Parcelles cadastrales actives de Nouvelle-Calédonie
