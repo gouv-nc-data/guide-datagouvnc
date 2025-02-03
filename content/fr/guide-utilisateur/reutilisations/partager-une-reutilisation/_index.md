@@ -31,7 +31,7 @@ Dans le formulaire, vous devrez renseigner plusieurs informations essentielles :
 ✔️ Soyez clair et concis dans votre description.  
 ✔️ Si votre projet est collaboratif, indiquez comment d’autres peuvent y contribuer.  
 
-## 📤 Étape 3 : Soumettre et attendre la validation##
+## 📤 Étape 3 : Soumettre et attendre la validation
 Une fois le formulaire complété :
 
 - Vérifiez vos informations et cliquez sur "Envoyer le message".
@@ -40,6 +40,6 @@ Une fois le formulaire complété :
 
 📌 **Et après ?**
 Votre réutilisation apparaîtra sur la plateforme.  
-A tout moment, vous pourrez également mettre à jour les informations si nécessaire en cliquant sur [https://data.gouv.nc/pages/nous-contacter](le formulaire de contact).
+A tout moment, vous pourrez également mettre à jour les informations si nécessaire en cliquant sur [le formulaire de contact](https://data.gouv.nc/pages/nous-contacter).
 
 🚀 **Alors, prêt à valoriser votre projet ? Partagez dès maintenant votre réutilisation !**

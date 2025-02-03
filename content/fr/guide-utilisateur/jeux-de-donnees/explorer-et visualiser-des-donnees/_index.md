@@ -14,7 +14,7 @@ objectifs:
 
 ## Comment explorer un jeu de données ?
 ### Accéder au jeu de données
-Une fois que vous avez [trouvé le jeu de données qui vous intéresse](https://guide.data.gouv.nc/guide-utilisateur/trouver-des-donnees), cliquez dessus pour ouvrir sa page dédiée.
+Une fois que vous avez [trouvé le jeu de données qui vous intéresse](https://guide.data.gouv.nc/guide-utilisateur/jeux-de-donnees/trouver-des-donnees/), cliquez dessus pour ouvrir sa page dédiée.
 
 ### Comprendre la structure du jeu de données :
 
@@ -41,7 +41,7 @@ Choisissez parmi différents types de graphiques (barres, lignes, secteurs, etc.
 ### Utiliser les filtres et la recherche avancée
 Pour affiner votre exploration, utilisez les filtres disponibles pour sélectionner des sous-ensembles de données basés sur des critères spécifiques.  
 La barre de recherche permet d'effectuer des recherches en texte intégral ou d'utiliser des requêtes avancées pour des recherches plus précises.  
-Pour en savoir plus sur les requêtes avancées, consultez le guide officiel d'Opendatasoft : [Filtrer des données dans un jeu de données](https://userguide.opendatasoft.com/fr/articles/2257346).
+Pour en savoir plus sur les requêtes avancées, consultez le guide officiel d'Opendatasoft : **[Filtrer des données dans un jeu de données](https://userguide.opendatasoft.com/fr/articles/2257346)**.
 
 
 ## Comment créer des graphiques avec les outils de la plateforme ?
