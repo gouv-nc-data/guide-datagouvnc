@@ -14,8 +14,8 @@ Référencer une réutilisation sur le portail data.gouv.nc est une étape essen
 **Le processus est simple et rapide :** il vous suffit de remplir [le formulaire dédié](https://data.gouv.nc/pages/nous-contacter) en suivant les étapes ci-dessous.
 
 ## 📝 Étape 1 : Accéder au formulaire
-1️⃣ Rendez-vous sur la page [Nous contacter](https://data.gouv.nc/pages/nous-contacter) du portail.  
-2️⃣ Cliquez sur **"Partager une réutilisation"** pour ouvrir le formulaire de soumission.  
+- Rendez-vous sur la page **[Nous contacter](https://data.gouv.nc/pages/nous-contacter)** du portail.  
+- Cliquez sur **"Partager une réutilisation"** pour ouvrir le formulaire de soumission.  
 
 ## 📋 Étape 2 : Remplir les informations de votre réutilisation
 Dans le formulaire, vous devrez renseigner plusieurs informations essentielles :
