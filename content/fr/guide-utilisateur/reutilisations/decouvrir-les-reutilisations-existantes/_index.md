@@ -8,7 +8,7 @@ objectifs:
 - Comprendre comment explorer la galerie des réutilisations
 ---
 
-
+##  
 Les données ouvertes de Nouvelle-Calédonie sont déjà exploitées dans de nombreux projets, allant des applications interactives aux analyses approfondies. Ces réutilisations montrent le potentiel des données ouvertes et peuvent servir d’inspiration pour vos propres initiatives.
 
 ## Où trouver les réutilisations ?

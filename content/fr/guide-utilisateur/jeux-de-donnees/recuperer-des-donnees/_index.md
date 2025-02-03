@@ -20,10 +20,10 @@ Pour ceux-là, une fois le jeu de données identifié :
 4. **Téléchargez** : Cliquez sur le lien de téléchargement pour récupérer les données.  
 
 Certains jeux de données sont simplement référencés sur la plateforme mais sont hébergés sur les plateformes open data partenaires, comme par exemple **[la plateforme de téléchargement du Géorep](https://georep-dtsi-sgt.opendata.arcgis.com/)**, **[la plateforme open data de la Ville de Nouméa](https://data.noumea.nc/)** ou **[la plateforme open data SIG de l'OPT-NC](https://maps.opendata.opt.nc/)**.  
-Pour ces données, vous serez directement redirigé vers les plateformes sources, depuis lesquelles vous pourrez réaliser vos téléchargements.
+Pour ces données, cliquez sur le lien mentionné dans les métadonnées (dans la description, ou dans la métadonnée **"Référence"**): vous serez directement redirigé vers les plateformes sources, depuis lesquelles vous pourrez réaliser vos téléchargements.
 
 
-💡 **Astuce :** Pour une intégration automatisée, l'onglet API fournit les informations nécessaires pour accéder aux données via des requêtes API.
+💡 **Astuce :** Pour une intégration automatisée, l'**onglet API** fournit les informations nécessaires pour accéder aux données via des requêtes API.
 <!--Rendez-vous sur le guide du développeur pour plus d'informations -->
 
 <!--
