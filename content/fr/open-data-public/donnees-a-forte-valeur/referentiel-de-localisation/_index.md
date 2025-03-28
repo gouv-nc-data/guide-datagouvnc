@@ -68,7 +68,6 @@ Disponible sur [https://localisation.gouv.nc](https://localisation.gouv.nc), l�
 - Alimentation continue des données au fur et à mesure de l'implémentation de l'adressage des communes
 - Vers une brique essentielle d’un **commun numérique territorial**
 
----
 
 ## 7. En savoir plus
 
