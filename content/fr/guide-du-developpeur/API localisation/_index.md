@@ -11,7 +11,7 @@ objectifs:
 
 ## 💡 Présentation générale
 
-L'API Localisation est un service public numérique permettant de rechercher, vérifier et géolocaliser des lieux sur l'ensemble du territoire calédonien, même en l'absence d'adresses postales.
+L'[API Localisation](https://localisation.gouv.nc/api/openapi) est un service public numérique permettant de rechercher, vérifier et géolocaliser des lieux sur l'ensemble du territoire calédonien, même en l'absence d'adresses postales.
 
 Elle s'adresse aux développeurs d'applications métiers, de portails citoyens, ou de SI internes souhaitant :
 - Uniformiser la saisie des localisations
@@ -20,7 +20,8 @@ Elle s'adresse aux développeurs d'applications métiers, de portails citoyens, 
 
 API REST conforme OpenAPI 3.0 (swagger disponible).
 
-➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible):](https://localisation.gouv.nc/api/openapi)
+➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)
+➡️ [Comprendre ce qu'est le référentiel de localisation de Nouvelle-Calédonie](https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/)
 
 
 ## 🔢 Fonctionnalités principales
@@ -58,13 +59,12 @@ API REST conforme OpenAPI 3.0 (swagger disponible).
 
 ## 📊 Exemples d'appels d'API
 
-GET /search?q=127 rue daly&index=address 
-GET /search?q=lot 18 koniambo&index=parcel 
-GET /search?q=mediatheque dumbea&index=poi,address 
-GET /reverse?lat=-22.255&lon=166.451 
+GET /search?q=127 rue daly&index=address  
+GET /search?q=lot 18 koniambo&index=parcel   
+GET /search?q=mediatheque dumbea&index=poi,address  
+GET /reverse?lat=-22.255&lon=166.451  
 
 ## 🚧 Evolutions prévues / Modifications en cours (mars 2025)
-- Le wording de la documentation swagger est en cours de revue
 - Les catégories de POI sont susceptibles d'être affinées au cours du temps
 
 ## 🔗 Ressources utiles

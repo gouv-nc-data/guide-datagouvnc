@@ -55,6 +55,10 @@ Disponible sur [https://localisation.gouv.nc](https://localisation.gouv.nc), l�
 - 🔁 **Faire une recherche inversée** (à partir de coordonnées)
 - 🗺️ **Afficher les résultats sur une carte**
 
+➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)
+➡️ [Comprendre comment utiliser l'API Localisation (Guide du développeur)](https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/)
+
+
 ## 4. Cas d’usage concrets
 
 - 🌪️ **Cyclone** : repérer les habitations à secourir
