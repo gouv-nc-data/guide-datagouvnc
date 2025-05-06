@@ -47,7 +47,7 @@ Il s’inscrit dans la dynamique du futur **Service Public de la Donnée (SPD) d
 
 ## 3. L'API Localisation, une avancée majeure
 
-Disponible sur [https://localisation.gouv.nc](https://localisation.gouv.nc), l’AP localisation permet :
+Disponible sur [localisation.gouv.nc](https://localisation.gouv.nc), l’API localisation permet :
 
 - 🔍 **Rechercher** une localisation (par adresse, parcelle cadastrale, POI)
 - ✍️ **Auto-compléter** les saisies dans un formulaire
@@ -55,8 +55,8 @@ Disponible sur [https://localisation.gouv.nc](https://localisation.gouv.nc), l�
 - 🔁 **Faire une recherche inversée** (à partir de coordonnées)
 - 🗺️ **Afficher les résultats sur une carte**
 
-➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)
-➡️ [Comprendre comment utiliser l'API Localisation (Guide du développeur)](https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/)
+➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)  
+➡️ [Comprendre comment utiliser l'API Localisation (Guide du développeur)](https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/)  
 
 
 ## 4. Cas d’usage concrets
@@ -75,7 +75,8 @@ Disponible sur [https://localisation.gouv.nc](https://localisation.gouv.nc), l�
 
 ## 7. En savoir plus
 
-- 🔗 API Localisation : [https://localisation.gouv.nc](https://localisation.gouv.nc)
+- 🔗 [API Localisation](https://localisation.gouv.nc)
+- 📜 [Guide du développeur sur l'API localisation](https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/)
 - 📘 [Feuille de route Data 2024–2025](https://drive.google.com/file/d/1XC_C2qcxsaH5Gj5XCH29STr6oIyKFBvo/view?usp=sharing)
 - [Site web du GIE SERAIL](https://www.serail.nc/) : Le Groupement d’Intérêt Économique SERAIL accompagne activement les communes calédoniennes dans leurs démarches d’adressage et de numérotation des voies.
 - 🤝 [Site web de la DITTT](https://dittt.gouv.nc/information-geographique/en-savoir-plus/cadastre-et-inventaire-parcellaire) : La Direction des Infrastructures, de la Topographie et des Transports Terrestres joue un rôle clé dans la structuration et la mise à disposition des données géographiques du territoire.
