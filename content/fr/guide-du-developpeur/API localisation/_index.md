@@ -58,10 +58,10 @@ API REST conforme OpenAPI 3.0 (swagger disponible).
 
 ## 📊 Exemples d'appels d'API
 
-GET /search?q=127 rue daly&index=address 
-GET /search?q=lot 18 koniambo&index=parcel 
-GET /search?q=mediatheque dumbea&index=poi,address 
-GET /reverse?lat=-22.255&lon=166.451 
+GET /search?q=127 rue daly&index=address  
+GET /search?q=lot 18 koniambo&index=parcel   
+GET /search?q=mediatheque dumbea&index=poi,address  
+GET /reverse?lat=-22.255&lon=166.451  
 
 ## 🚧 Evolutions prévues / Modifications en cours (mars 2025)
 - Le wording de la documentation swagger est en cours de revue
