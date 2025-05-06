@@ -78,7 +78,7 @@ Disponible sur [localisation.gouv.nc](https://localisation.gouv.nc), l’API loc
 - 🔗 [API Localisation](https://localisation.gouv.nc)
 - 📜 [Guide du développeur sur l'API localisation](https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/)
 - 📘 [Feuille de route Data 2024–2025](https://drive.google.com/file/d/1XC_C2qcxsaH5Gj5XCH29STr6oIyKFBvo/view?usp=sharing)
-- [Site web du GIE SERAIL](https://www.serail.nc/) : Le Groupement d’Intérêt Économique SERAIL accompagne activement les communes calédoniennes dans leurs démarches d’adressage et de numérotation des voies.
+- 📍 [Site web du GIE SERAIL](https://www.serail.nc/) : Le Groupement d’Intérêt Économique SERAIL accompagne activement les communes calédoniennes dans leurs démarches d’adressage et de numérotation des voies.
 - 🤝 [Site web de la DITTT](https://dittt.gouv.nc/information-geographique/en-savoir-plus/cadastre-et-inventaire-parcellaire) : La Direction des Infrastructures, de la Topographie et des Transports Terrestres joue un rôle clé dans la structuration et la mise à disposition des données géographiques du territoire.
-- 🎥 Vidéo Afterwork Data avec intervention de Fabien CAPRI, directeur du GIE SERAIL : [Voir sur YouTube](https://www.youtube.com/watch?v=HQaQj8_NQt4)
+- 🎥 [Vidéo Afterwork Data](https://www.youtube.com/watch?v=HQaQj8_NQt4) avec l'intervention de Fabien CAPRI, directeur du GIE SERAIL (⌛ à 40'57)
 - 📧 Contact : [data@gouv.nc](mailto:data@gouv.nc)

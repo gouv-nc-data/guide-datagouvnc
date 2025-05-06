@@ -64,10 +64,10 @@ GET /search?q=lot 18 koniambo&index=parcel
 GET /search?q=mediatheque dumbea&index=poi,address  
 GET /reverse?lat=-22.255&lon=166.451  
 
-## 🚧 Evolutions prévues / Modifications en cours (mars 2025)
+## 🚧 Evolutions prévues
 - Les catégories de POI sont susceptibles d'être affinées au cours du temps
 
 ## 🔗 Ressources utiles
-- Page de vulgarisation du sujet "Localisation" : https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/
-- Documentation Swagger : https://localisation.gouv.nc/api/openapi
+- [Page de vulgarisation sur le référentiel de localisation](https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/) 
+- [Documentation Swagger](https://localisation.gouv.nc/api/openapi)
 - Contact technique : data@gouv.nc
