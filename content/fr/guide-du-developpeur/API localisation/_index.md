@@ -20,8 +20,8 @@ Elle s'adresse aux développeurs d'applications métiers, de portails citoyens, 
 
 API REST conforme OpenAPI 3.0 (swagger disponible).
 
-➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)
-➡️ [Comprendre ce qu'est le référentiel de localisation de Nouvelle-Calédonie](https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/)
+➡️ [Accéder à l'API REST conforme OpenAPI 3.0 (swagger disponible)](https://localisation.gouv.nc/api/openapi)  
+➡️ [Comprendre ce qu'est le référentiel de localisation de Nouvelle-Calédonie](https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/)  
 
 
 ## 🔢 Fonctionnalités principales
@@ -68,6 +68,6 @@ GET /reverse?lat=-22.255&lon=166.451
 - Les catégories de POI sont susceptibles d'être affinées au cours du temps
 
 ## 🔗 Ressources utiles
-- Page de vulgarisation du sujet "Localisation" : guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation
+- Page de vulgarisation du sujet "Localisation" : https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/
 - Documentation Swagger : https://localisation.gouv.nc/api/openapi
 - Contact technique : data@gouv.nc
