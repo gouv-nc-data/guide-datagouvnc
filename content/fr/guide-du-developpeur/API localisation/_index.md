@@ -24,12 +24,29 @@ API REST conforme OpenAPI 3.0 (swagger disponible).
 ➡️ [Comprendre ce qu'est le référentiel de localisation de Nouvelle-Calédonie](https://guide.data.gouv.nc/open-data-public/donnees-a-forte-valeur/referentiel-de-localisation/)  
 
 
+## 📚 Sources de données utilisées par l’API
+
+L’API Localisation de Nouvelle-Calédonie interroge trois sources principales :
+
+- **Les adresses** : extraites de la [Base Adresse Nationale (BAN)](https://adresse.data.gouv.fr/), pour les communes adressées. Elles permettent d’obtenir des résultats de type `housenumber` (numéro d'adresse précise) ou `street` (centroïde de voie adressée).
+- **Les points d’intérêt (POI)** : lieux significatifs (tribus, équipements publics, lieux-dits, voies nommées dans les communes non adressées, immeubles, etc.).
+- **Les parcelles cadastrales** : via le cadastre géré à l’échelle du territoire (hors province des Îles).
+
+Ces trois sources sont interrogées selon le ou les `index` spécifiés dans les appels API (`address`, `poi`, `cadastre`).
+
+
+
 ## 🔢 Fonctionnalités principales
 
 ### Recherche directe (`/search`)
 
 - Recherche par chaîne de caractères : `?q=mediatheque dumbea`
-- Recherche multi-index : `index=address,poi,parcel`
+- Recherche multi-index : `index=address,poi,cadastre`
+
+### Exemples :
+`GET /search?q=127 rue daly&index=address`  
+`GET /search?q=lot 18 koniambo&index=parcel`   
+`GET /search?q=mediatheque dumbea&index=poi,address`  
 
 ### Autocomplétion
 
@@ -40,11 +57,14 @@ API REST conforme OpenAPI 3.0 (swagger disponible).
 
 - À partir d'une paire de coordonnées (lat/lon), retrouver la localisation la plus proche
 
+### Exemple :
+`GET /reverse?lat=-22.255&lon=166.451`  
+
 ### Filtres disponibles
 
 - Par commune (code INSEE ou nom)
-- Par catégorie de POI (pour l'index "poi")
-- Par type de résultat (street, housenumber, etc.) (pour l'index "adress")
+- Par catégorie de POI (pour l'index `poi`)
+- Par type de résultat (street, housenumber, etc.) (pour l'index `adress`)
 
 
 ## 🥇 Bonnes pratiques d’intégration
@@ -53,16 +73,36 @@ API REST conforme OpenAPI 3.0 (swagger disponible).
 - Affichez le **type de résultat** dans l'UI (ex : "Parcelle cadastrale", "Tribu", "Adresse")
 - Limitez les résultats à 10 ou 20 pour optimiser l'affichage
 - Utilisez les filtres de contexte (commune, catégorie de POI, type de POI, etc.) pour améliorer la précision
-- ℹ️ À noter : dans l'index "address", les voies nommées issues de la [Base Adresse Nationale (BAN)](https://adresse.data.gouv.fr/) sont représentées par un point central (appelé "centroïde de voie") utilisé pour centrer la carte lors d’une recherche. Ce comportement permet d’afficher une emprise cartographique complète ("box") autour de la voie, mais ne garantit pas que l'on récupère l'ensemble des adresses présentes sur cette voie. Il peut aussi y avoir doublon avec l’index "poi" si cette voie est également recensée comme point d’intérêt. Pensez à détermliner des règles de gestion appropriées à vos besoin ou à documenter ce point dans votre interface utilisateur si besoin.
+  
+## ⚠️ Point d'attention : comprendre les types de résultats et éviter les doublons
+
+ℹ️ À noter : selon l’index utilisé dans votre requête, le comportement de l’API diffère.  
+Voici les trois cas principaux à connaître :
+
+1. **Index `address` – recherche par numéro de rue**  
+Une recherche comme `GET /search?q=127 daly&index=address&type=housenumber` retourne les données précises de l’adresse, avec coordonnées géographiques exactes. Ce type de résultat est possible uniquement si cette adresse est bien enregistrée dans la [Base Adresse Nationale (BAN)](https://adresse.data.gouv.fr/).  
+
+2. **Index `address` – recherche par nom de rue sans numéro**
+Une recherche comme `GET /search?q=arnold daly&index=address&type=street` retourne un centroïde de voie (point central calculé) associé à une emprise géographique (ou "box"). Ce résultat représente la rue dans son ensemble, utile pour un affichage cartographique qui englobe l'ensemble de la voie, mais ne contient pas les adresses précises (numéros de rue).  
+ℹ️ À noter : Le centroïde peut être situé en dehors de la rue, notamment lorsqu’elle est courbe, comme c’est le cas pour rue Arnold Daly. Ce comportement est hérité de la [Base Adresse Nationale (BAN)](https://adresse.data.gouv.fr/), et n'est possible que dans les communes adressées.
+
+3. **Index `poi` – voie nommée comme point d’intérêt**
+Certaines voies ont été référencées comme points d’intérêt (POI), qu’elles soient dans des communes adressées ou non adressées. Une recherche comme `GET /search?q=arnold daly&index=poi` retournera un point situé directement sur la voie elle-même, au milieu de celle-ci.  
+👉 Très utile dans les communes non adressées, cela permet de localiser une rue, même en l’absence de toute adresse postale.  
+⚠️ Dans les communes déjà adressées, cela peut provoquer un doublon avec le centroïde généré par la BAN via l’index `address`, même si la logique technique est différente:  
+- le point POI est sur la rue, au milieu de celle-ci
+- tandis que le centroïde de l’index `address` peut être en dehors de la rue, car il est calculé pour encadrer l’ensemble de la voie.
+  
+⚠️ **Attention particulière à l’autocomplétion :** si vous activez l’autocomplétion avec plusieurs index (poi, address, etc.), l’utilisateur final pourrait se retrouver avec plusieurs suggestions identiques en apparence, sans savoir lequel choisir. Cela engendre des risques :
+- Choix aléatoire d’un résultat sans compréhension du type
+- Données hétérogènes dans vos bases
+👉 Pour éviter de désorienter les utilisateurs finaux, il est recommandé aux développeurs :
+- de définir des règles métier explicites en priorisant un index selon le contexte d’usage,
+- de filtrer et structurer les résultats par type, notamment dans les suggestions de l’autocomplétion,
+- ou d’afficher clairement le type de résultat retourné
+- ou d’exclure certains doublons dans les traitements si nécessaire.
 
 ---
-
-## 📊 Exemples d'appels d'API
-
-GET /search?q=127 rue daly&index=address  
-GET /search?q=lot 18 koniambo&index=parcel   
-GET /search?q=mediatheque dumbea&index=poi,address  
-GET /reverse?lat=-22.255&lon=166.451  
 
 ## 🚧 Evolutions prévues
 - Les catégories de POI sont susceptibles d'être affinées au cours du temps
