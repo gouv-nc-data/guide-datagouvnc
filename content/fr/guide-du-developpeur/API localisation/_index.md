@@ -88,7 +88,7 @@ Une recherche comme `GET /search?q=arnold daly&index=address&type=street` retour
 
 3. **Index `poi` – voie nommée comme point d’intérêt**
 Certaines voies ont été référencées comme points d’intérêt (POI), qu’elles soient dans des communes adressées ou non adressées. Une recherche comme `GET /search?q=arnold daly&index=poi` retournera un point situé directement sur la voie elle-même, au milieu de celle-ci.  
-👉 Très utile dans les communes non adressées, cela permet de localiser une rue, même en l’absence de toute adresse postale.  
+👉 Très utile dans les communes non adressées, cela permet de localiser une rue, même en l’absence de toute adresse .  
 ⚠️ Dans les communes déjà adressées, cela peut provoquer un doublon avec le centroïde généré par la BAN via l’index `address`, même si la logique technique est différente:  
 - le point POI est sur la rue, au milieu de celle-ci
 - tandis que le centroïde de l’index `address` peut être en dehors de la rue, car il est calculé pour encadrer l’ensemble de la voie.
