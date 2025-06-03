@@ -11,7 +11,7 @@ objectifs:
 
 ## 💡 Présentation générale
 
-L'[API Localisation](https://localisation.gouv.nc/api/openapi) est un service public numérique permettant de rechercher, vérifier et géolocaliser des lieux sur l'ensemble du territoire calédonien, même en l'absence d'adresses postales.
+L'[API Localisation](https://localisation.gouv.nc/api/openapi) est un service public numérique permettant de rechercher, vérifier et géolocaliser des lieux sur l'ensemble du territoire calédonien, même en l'absence d'adresses.
 
 Elle s'adresse aux développeurs d'applications métiers, de portails citoyens, ou de SI internes souhaitant :
 - Uniformiser la saisie des localisations
