@@ -15,7 +15,7 @@ objectifs:
 
 ## 1. Ce qu’on croit savoir : une adresse, c’est toujours postal ?
 
-En métropole, on dispose d’adresses postales normalisées (numéro, rue, code postal, commune).  
+En métropole, on dispose d’adresses normalisées (numéro, rue, code postal, commune).  
 Mais en Nouvelle-Calédonie, la situation est différente :
 
 - Seules **6 communes sur 33** sont pleinement adressées.
@@ -27,7 +27,7 @@ Mais en Nouvelle-Calédonie, la situation est différente :
         - **Équipements publics**
         - **Voies nommées** (non normalisées)
         - Etc.
-- Dans les **îles Loyauté**, il n’y a **ni cadastre ni adresses postales** : on utilise les **points d’intérêt (POI)**.
+- Dans les **îles Loyauté**, il n’y a **ni cadastre ni adresses** : on utilise les **points d’intérêt (POI)**.
 
 > 💡 Une "localisation", ce n’est pas forcément une adresse postale.
 
