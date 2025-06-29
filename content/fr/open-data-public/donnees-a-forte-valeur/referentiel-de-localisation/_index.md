@@ -18,7 +18,7 @@ objectifs:
 En métropole, on dispose d’adresses normalisées (numéro, rue, code postal, commune).  
 Mais en Nouvelle-Calédonie, la situation est différente :
 
-- Seules **6 communes sur 33** sont pleinement adressées.
+- Seules **6 communes sur 33** sont pleinement adressées: Nouméa, Dumbéa, Mont-Dore, Koné, Kaala-Gomen et Pouembout.
 - Ailleurs, on localise via :
   - **Parcelles cadastrales**
   - des **points d’intérêt (POI)**:
